@@ -1,0 +1,81 @@
+DOCUMENTO HISTÓRICO DE LA ENTREGA ANTERIOR.
+La revisión actual, sus cambios y resultados están en ../LEEME_PRIMERO.md e ../INFORME_REVISION.md.
+Las instrucciones y cifras de este documento pueden no corresponder a la versión corregida.
+
+NOTA: este documento describe la entrega anterior con Izipay. Para la versión académica actual consulta README_PAGOS.md, CAMBIOS_ACADEMICOS.md y RESULTADOS_ACADEMICOS.md.
+
+FONTANA | Verificación frente al ZIP original
+Versión: 6 de septiembre de 2026
+Comparación byte por byte; no se muestran credenciales.
+
+Archivos originales sin modificaciones: 21
+Archivos originales modificados: 11
+Archivos originales eliminados: 0
+
+CONSERVADOS SIN CAMBIOS
+.vscode/launch.json
+.vscode/tasks.json
+CORRECCIONES_REQUISITOS.md
+README_API_DNI_RUC.md
+api_consulta_documento.php
+config/api.example.php
+config/api.php
+css/estilos.css
+fontana_db.sql
+img/LEER_qr_pago.txt
+img/logo_fontana1.png
+img/qr_yape.png
+includes/api_documentos.php
+includes/footer.php
+index.php
+logout.php
+reporte_pdf.php
+reportes.php
+sql/fontana_db.sql
+sql/migracion_api_dni_ruc.sql
+sql/migracion_pago_qr.sql
+
+ORIGINALES MODIFICADOS
+.gitignore
+caja.php
+conexion.php
+includes/header.php
+includes/helpers.php
+inventario.php
+login.php
+productos.php
+reposicion.php
+usuarios.php
+ventas.php
+
+ARCHIVOS NUEVOS (antes de generar los informes finales)
+.htaccess
+.vscode/.htaccess
+README_PAGOS.md
+api_pago.php
+config/.htaccess
+config/pagos.example.php
+configurar_pagos.php
+css/pagos.css
+docs/.htaccess
+docs/CAMBIOS.md
+docs/PRUEBAS_Y_DESPLIEGUE.md
+includes/.htaccess
+includes/izipay.php
+includes/pago_vista.php
+includes/pagos.php
+js/pagos.js
+js/ventas-pagos.js
+pago.php
+pagos.php
+sql/.htaccess
+sql/migracion_pagos_api.sql
+tests/.htaccess
+tests/diagnostico.php
+tests/generar_vistas.php
+tests/interfaz.py
+tests/unit.php
+webhook_izipay.php
+
+Los archivos config/api.php y la configuración documental original son privados.
+Las ampliaciones SQL y los cobros deben validarse en una copia antes de producción.

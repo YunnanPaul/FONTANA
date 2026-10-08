@@ -1,0 +1,95 @@
+DOCUMENTO HISTÓRICO DE LA ENTREGA ANTERIOR.
+La revisión actual, sus cambios y resultados están en ../LEEME_PRIMERO.md e ../INFORME_REVISION.md.
+Las instrucciones y cifras de este documento pueden no corresponder a la versión corregida.
+
+OK  Modo inicial demo sin llaves
+OK  Ruta demo Yape
+OK  Ruta demo Plin
+OK  Ruta demo Tarjeta
+OK  Ruta demo Efectivo
+OK  Ruta API externa Yape
+OK  Ruta API externa Tarjeta
+OK  Ruta explícitamente simulada Plin
+OK  Ruta explícitamente simulada Efectivo
+OK  Modo manual conserva efectivo
+OK  Modo Izipay compatible
+OK  API usa importe del servidor
+OK  API referencia la orden inmutable
+OK  Metadata identifica prueba
+OK  No usa estado inyectado en formulario
+OK  Bloquea datos bancarios crudos: card_number
+OK  Bloquea datos bancarios crudos: cardNumber
+OK  Bloquea datos bancarios crudos: cvv
+OK  Bloquea datos bancarios crudos: security_code
+OK  Bloquea datos bancarios crudos: expiration_month
+OK  Bloquea datos bancarios crudos: expiration_year
+OK  Exige correo de prueba persona@gmail.com
+OK  Exige correo de prueba otro@example.com
+OK  Exige correo de prueba test_user@testuser.com.evil
+OK  Exige correo de prueba bad
+OK  Valida cuotas 0
+OK  Valida cuotas 13
+OK  Valida cuotas "1.1"
+OK  Valida cuotas []
+OK  Valida cuotas true
+OK  Yape exige una cuota
+OK  No permite Plin en API no integrada
+OK  No cruza método Yape y tarjeta
+OK  Token no puede contener HTML
+OK  Credenciales TEST aceptadas
+OK  Credencial no TEST bloqueada APP_USR
+OK  Credencial no TEST bloqueada 
+OK  Credencial no TEST bloqueada Bearer 
+OK  Credencial pública producción bloqueada
+OK  Aprobación test correcta
+OK  Rechaza respuesta incompatible live_mode
+OK  Rechaza respuesta incompatible currency_id
+OK  Rechaza respuesta incompatible transaction_amount
+OK  Rechaza respuesta incompatible external_reference
+OK  Rechaza respuesta incompatible id
+OK  Rechaza respuesta incompatible payment_method_id
+OK  Rechaza respuesta incompatible status
+OK  live_mode ausente NO es sandbox
+OK  live_mode cero no sustituye booleano false
+OK  Reconoce estado pending
+OK  Reconoce estado in_process
+OK  Reconoce estado authorized
+OK  Reconoce estado in_mediation
+OK  Reconoce estado rejected
+OK  Reconoce estado cancelled
+OK  Reconoce estado refunded
+OK  Reconoce estado charged_back
+OK  Respuesta tarjeta coherente
+OK  Tarjeta no acepta ticket
+OK  Rechaza importe API inválido 17.501
+OK  Rechaza importe API inválido NAN
+OK  Rechaza importe API inválido INF
+OK  Rechaza importe API inválido -0.1
+OK  Decimal API sin pérdida de centavos
+OK  Firma webhook válida
+OK  Firma admite reintentos antiguos idempotentes
+OK  Firma con id alterado rechazada
+OK  Firma con request-id alterado rechazada
+OK  Firma con secreto incorrecto rechazada
+OK  Firma sin secreto rechazada
+OK  Firma vacía rechazada
+OK  Firma con timestamp duplicado rechazada
+OK  Firma inválida no acepta JSON aprobado
+OK  Múltiples v1 permiten rotación de firma
+OK  Rechaza URL de QR insegura javascript:alert(1)
+OK  Rechaza URL de QR insegura https://user:pass@example.com
+OK  Rechaza URL de QR insegura https://example.com?a=b
+OK  Rechaza URL de QR insegura https://example.com#token
+OK  Rechaza URL de QR insegura not a url
+OK  Admite IP de red local para celular
+OK  URL automática no necesita Internet
+OK  No simula una orden de API
+OK  Simulador bloquea entorno production
+OK  Simulador bloquea entorno manual
+OK  Simulador bloquea entorno sandbox
+OK  Vista móvil no expone PII
+OK  QR demo en proceso caduca
+OK  Pago MP pendiente no se invalida por vencimiento local
+OK  Venta de base separada se etiqueta académica
+
+RESULTADO: 89 aprobadas; 0 fallidas. No se probó MySQL ni la cuenta de Mercado Pago.

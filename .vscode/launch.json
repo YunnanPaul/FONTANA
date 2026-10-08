@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Abrir Fontana en navegador",
+      "type": "msedge",
+      "request": "launch",
+      "url": "http://localhost/fontana_mejorado/login.php",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}

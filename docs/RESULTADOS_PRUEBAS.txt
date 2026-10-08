@@ -1,0 +1,91 @@
+DOCUMENTO HISTÓRICO DE LA ENTREGA ANTERIOR.
+La revisión actual, sus cambios y resultados están en ../LEEME_PRIMERO.md e ../INFORME_REVISION.md.
+Las instrucciones y cifras de este documento pueden no corresponder a la versión corregida.
+
+NOTA: este documento describe la entrega anterior con Izipay. Para la versión académica actual consulta README_PAGOS.md, CAMBIOS_ACADEMICOS.md y RESULTADOS_ACADEMICOS.md.
+
+FONTANA | RESULTADOS DE PRUEBAS LOCALES
+Versión: 6 de septiembre de 2026
+
+ALCANCE: sin MySQL/mysqli/cURL ni credenciales de comercio en este entorno.
+No se han probado migración, SQL concurrente, tokens reales, QR bancarios,
+autorizaciones de tarjeta ni notificaciones reales. Las pruebas UI usan mocks.
+
+SINTAXIS PHP: 31 archivos sin errores detectados.
+SINTAXIS JAVASCRIPT: js/pagos.js y js/ventas-pagos.js correctos.
+
+OK  Importe exacto 0
+OK  Importe exacto 0.01
+OK  Importe exacto 1.5
+OK  Importe exacto 17.50
+OK  Importe exacto 99999999.99
+OK  Rechaza importe -1
+OK  Rechaza importe 1.001
+OK  Rechaza importe 1e3
+OK  Rechaza importe 17,50
+OK  Rechaza importe 01.50
+OK  Rechaza importe 
+OK  Rechaza importe NaN
+OK  Rechaza importe 1 000
+OK  Rechaza importe 100000000
+OK  Rechaza importe +1
+OK  Rechaza importe 1.
+OK  Rechaza float monetario
+OK  Decimales sin error binario
+OK  Formato de importe
+OK  Agrupa duplicados y ordena bloqueos
+OK  Rechaza cantidad ["0"]
+OK  Rechaza cantidad ["-1"]
+OK  Rechaza cantidad ["1.9"]
+OK  Rechaza cantidad ["1e2"]
+OK  Rechaza cantidad ["100000"]
+OK  Rechaza listas disparejas
+OK  Rechaza producto vacío
+OK  Rechaza cantidad anidada
+OK  Rechaza carrito vacío
+OK  Unicode no se corta por bytes
+OK  Longitud máxima de texto
+OK  HMAC válida sobre bytes originales
+OK  QR aprobado y total exacto
+OK  Plin usa canal QR
+OK  Tarjeta valida canal CARD
+OK  Firma errónea no confirma
+OK  Modificar importe firmado invalida HMAC
+OK  Cambiar espacios firmados invalida HMAC
+OK  No acepta secreto vacío
+OK  Campos externos no sustituyen datos firmados
+OK  Rechaza aprobación incompatible: amount
+OK  Rechaza aprobación incompatible: currency
+OK  Rechaza aprobación incompatible: orderNumber
+OK  Rechaza aprobación incompatible: uniqueId
+OK  Rechaza aprobación incompatible: payMethodAuthorization
+OK  Rechaza otro comercio
+OK  Rechaza otra transacción
+OK  Rechazo firmado no es aprobación
+OK  Rechaza autorización múltiple
+OK  Rechaza transacción ausente en JSON firmado
+OK  Reserva pendiente vencida no aparece cobrable
+OK  No confunde vencimiento local con cancelación del QR
+OK  Estado de prueba no es venta real
+OK  Dominios del SDK limitados
+OK  Modo configurado reconocido
+OK  DNI y RUC originales disponibles
+
+RESULTADO: 56 aprobadas; 0 fallidas. No se llamó al banco ni a MySQL.
+
+Vistas de prueba generadas en /mnt/data/fontana_qa_final/vistas
+OK  Total y subtotales: 2×5 + 3×2.50 = 17.50
+OK  Quitar líneas y limpiar última línea actualiza total
+OK  Vuelto calculado antes de registrar venta
+OK  Venta manual aparece después de respuesta simulada; no se envía total del navegador
+OK  Checkout simulado recibe QR/PEN/17.50 sin marcar pago al abrirse
+OK  Callback se remite a backend; sandbox se muestra separado de ventas
+OK  Code 00 sin firma no confirma el pago
+OK  Tarjetas usan checkout CARD y no campos locales de tarjeta/CVV
+MOBILE_WIDTH {'width': 390, 'scroll': 390}
+OK  Vista móvil a 390 px sin desbordamiento horizontal
+OK  Sin errores JavaScript en los recorridos probados
+RESULTADO 10 pruebas de interfaz aprobadas
+
+VERIFICACIÓN DE CONSERVACIÓN: config/api.php, API documental, dashboard, reportes, CSS original, imágenes y SQL base idénticos al ZIP original.
+No se eliminaron archivos originales. Consulta VERIFICACION_ARCHIVOS.txt.

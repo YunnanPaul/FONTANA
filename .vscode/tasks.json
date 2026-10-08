@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Abrir el sistema fontana",
+            "type": "shell",
+            "command": "cmd",
+            "args": [
+                "/c",
+                "start",
+                "http://localhost/fontana_mejorado/login.php"
+            ],
+            "problemMatcher": []
+            
+        }
+    ]
+}

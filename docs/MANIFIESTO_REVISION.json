@@ -1,0 +1,824 @@
+{
+  "base_original": "fontana_mejorado(4).zip",
+  "base_academica": "fontana_pagos_academicos.zip",
+  "original_sha256": "5aa5c6e023c9d79e84c2570ea1a884af1e43f48bfe82db932b3b2e37c40b6943",
+  "academico_sha256": "01771eaab79e49d67d137cac4a8d485e026ce4220cd3ebbc2626924d1f5413bd",
+  "rutas_originales": 32,
+  "rutas_originales_eliminadas": [],
+  "archivos_originales_sin_cambios": [
+    "README_API_DNI_RUC.md",
+    "CORRECCIONES_REQUISITOS.md",
+    "reporte_pdf.php",
+    "api_consulta_documento.php",
+    "index.php",
+    "reportes.php",
+    "css/estilos.css",
+    "sql/migracion_api_dni_ruc.sql",
+    "sql/migracion_pago_qr.sql",
+    "config/api.example.php",
+    "config/api.php",
+    "img/logo_fontana1.png",
+    "img/LEER_qr_pago.txt",
+    "img/qr_yape.png",
+    ".vscode/launch.json",
+    ".vscode/tasks.json",
+    "includes/footer.php",
+    "includes/api_documentos.php"
+  ],
+  "archivos_originales_modificados": [
+    "fontana_db.sql",
+    "conexion.php",
+    "login.php",
+    ".gitignore",
+    "usuarios.php",
+    "logout.php",
+    "caja.php",
+    "ventas.php",
+    "inventario.php",
+    "productos.php",
+    "reposicion.php",
+    "sql/fontana_db.sql",
+    "includes/header.php",
+    "includes/helpers.php"
+  ],
+  "archivos": [
+    {
+      "ruta": ".gitignore",
+      "sha256_original": "571108af0fc09825bb34bafd91cc738e5fd6a74f22324810a7bdc0760d91335c",
+      "sha256_academico": "991f3f1ad82c6c07d8aa6d034ad4f74833057bf9063ef75dcc6a3a67299fa60d",
+      "sha256_revisado": "739f7fb628bd6c57a9520a423868caaa76a2bcef49c61638c132d5bfa0e774b3",
+      "estado_original": "modificado"
+    },
+    {
+      "ruta": ".htaccess",
+      "sha256_original": null,
+      "sha256_academico": "53802b0cc5abfc83745c39cb836d97ec5a975dd74fae9499793cce762e4d1e68",
+      "sha256_revisado": "53802b0cc5abfc83745c39cb836d97ec5a975dd74fae9499793cce762e4d1e68",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": ".vscode/.htaccess",
+      "sha256_original": null,
+      "sha256_academico": "fa28d421a28ed9b6f4b997d5119c2b8adbacff6e2dd119a179b71230f9664934",
+      "sha256_revisado": "fa28d421a28ed9b6f4b997d5119c2b8adbacff6e2dd119a179b71230f9664934",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": ".vscode/launch.json",
+      "sha256_original": "305a58b7cb02498ab00e7b9fdbb9d6188a51568c4582af2ffc7d5902a73cb7f4",
+      "sha256_academico": "305a58b7cb02498ab00e7b9fdbb9d6188a51568c4582af2ffc7d5902a73cb7f4",
+      "sha256_revisado": "305a58b7cb02498ab00e7b9fdbb9d6188a51568c4582af2ffc7d5902a73cb7f4",
+      "estado_original": "sin_cambios"
+    },
+    {
+      "ruta": ".vscode/tasks.json",
+      "sha256_original": "3595d5dbe0bbd0d3d7c0bf2ef09a5a43fc589d0261c6e817d90d5d41532dfc83",
+      "sha256_academico": "3595d5dbe0bbd0d3d7c0bf2ef09a5a43fc589d0261c6e817d90d5d41532dfc83",
+      "sha256_revisado": "3595d5dbe0bbd0d3d7c0bf2ef09a5a43fc589d0261c6e817d90d5d41532dfc83",
+      "estado_original": "sin_cambios"
+    },
+    {
+      "ruta": "CORRECCIONES_REQUISITOS.md",
+      "sha256_original": "5e03a7075a99fa6a489227f5980411011269eee7dc8f94c8bdbaf933ac13bf9e",
+      "sha256_academico": "5e03a7075a99fa6a489227f5980411011269eee7dc8f94c8bdbaf933ac13bf9e",
+      "sha256_revisado": "5e03a7075a99fa6a489227f5980411011269eee7dc8f94c8bdbaf933ac13bf9e",
+      "estado_original": "sin_cambios"
+    },
+    {
+      "ruta": "INFORME_REVISION.md",
+      "sha256_original": null,
+      "sha256_academico": null,
+      "estado_original": "nuevo",
+      "sha256_revisado": "8a64a87e4580b3da1535768f7b0458b529a820e8792589e95bac3d6b14e8c50a"
+    },
+    {
+      "ruta": "LEEME_PRIMERO.md",
+      "sha256_original": null,
+      "sha256_academico": null,
+      "sha256_revisado": "d0da333ab8498864cec714b05f7f23069efca43c921c883c528f731901289bd5",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "README_API_DNI_RUC.md",
+      "sha256_original": "e8d3ca1972bd26ec52729103acc67976d9a82e24818ee92277574beb423cbbba",
+      "sha256_academico": "e8d3ca1972bd26ec52729103acc67976d9a82e24818ee92277574beb423cbbba",
+      "sha256_revisado": "e8d3ca1972bd26ec52729103acc67976d9a82e24818ee92277574beb423cbbba",
+      "estado_original": "sin_cambios"
+    },
+    {
+      "ruta": "README_PAGOS.md",
+      "sha256_original": null,
+      "sha256_academico": "8f7340d4ff27a3b54c565b05b607f647efbcd2763d2454bc0bf5f89f32db15d4",
+      "sha256_revisado": "d0da333ab8498864cec714b05f7f23069efca43c921c883c528f731901289bd5",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "api_consulta_documento.php",
+      "sha256_original": "69818d6b82f61abd65a40c2f3787ada9dc092a1bb7abc4d6c78f6d9b66579909",
+      "sha256_academico": "69818d6b82f61abd65a40c2f3787ada9dc092a1bb7abc4d6c78f6d9b66579909",
+      "sha256_revisado": "69818d6b82f61abd65a40c2f3787ada9dc092a1bb7abc4d6c78f6d9b66579909",
+      "estado_original": "sin_cambios"
+    },
+    {
+      "ruta": "api_pago.php",
+      "sha256_original": null,
+      "sha256_academico": "46872931ad7200e67bee85fb3db9a627d348e33b3dfa16ca5647a2598e15f680",
+      "sha256_revisado": "46872931ad7200e67bee85fb3db9a627d348e33b3dfa16ca5647a2598e15f680",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "api_pago_demo.php",
+      "sha256_original": null,
+      "sha256_academico": "e6389416c58bd7fe349bb1fe290b504449699a75116473652ddfbf0af50be955",
+      "sha256_revisado": "e6389416c58bd7fe349bb1fe290b504449699a75116473652ddfbf0af50be955",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "caja.php",
+      "sha256_original": "bb8869f9bd968e63fae0aa15970a5f6467cde039c27462a5c6b54f3d0627494d",
+      "sha256_academico": "7c97b4376b0cdce23218f5b9a283f2959996f1d70ddd0ed7e9fa7c3344aaf612",
+      "sha256_revisado": "148554368ae4ee62c912904cdb48acf7eaf08815e9a79ade3514e813d179055e",
+      "estado_original": "modificado"
+    },
+    {
+      "ruta": "comprobante_prueba.php",
+      "sha256_original": null,
+      "sha256_academico": "b7b36af9a67ce52db3cb0b4195fcb71d922bfe2ca5dcaf29eaa55bd1d3376de0",
+      "sha256_revisado": "b7b36af9a67ce52db3cb0b4195fcb71d922bfe2ca5dcaf29eaa55bd1d3376de0",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "conexion.php",
+      "sha256_original": "0575b893ed97a18c07fbcb9b97f72dddd8870556924914c16e614c92fb078e92",
+      "sha256_academico": "2f7d846ab2421b5e4ebe9323b6783c5a9332b5ae49c72eb8dad5cc5c8b5fad43",
+      "sha256_revisado": "9e10eb49b6c55a74973455c28ae7e0b98749fe0961423c1dfaa09c9fa1206574",
+      "estado_original": "modificado"
+    },
+    {
+      "ruta": "config/.htaccess",
+      "sha256_original": null,
+      "sha256_academico": "fa28d421a28ed9b6f4b997d5119c2b8adbacff6e2dd119a179b71230f9664934",
+      "sha256_revisado": "fa28d421a28ed9b6f4b997d5119c2b8adbacff6e2dd119a179b71230f9664934",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "config/api.example.php",
+      "sha256_original": "3804f55ba99322f2b6124d9deaafd08c0cb325f460fc76fe984e5bd019f94c9a",
+      "sha256_academico": "3804f55ba99322f2b6124d9deaafd08c0cb325f460fc76fe984e5bd019f94c9a",
+      "sha256_revisado": "3804f55ba99322f2b6124d9deaafd08c0cb325f460fc76fe984e5bd019f94c9a",
+      "estado_original": "sin_cambios"
+    },
+    {
+      "ruta": "config/api.php",
+      "sha256_original": "e00104c31038cf8bf9b12874986b9cf103d1288a85d2d1e5c6fc8c459187209e",
+      "sha256_academico": "e00104c31038cf8bf9b12874986b9cf103d1288a85d2d1e5c6fc8c459187209e",
+      "sha256_revisado": "e00104c31038cf8bf9b12874986b9cf103d1288a85d2d1e5c6fc8c459187209e",
+      "estado_original": "sin_cambios"
+    },
+    {
+      "ruta": "config/conexion.example.php",
+      "sha256_original": null,
+      "sha256_academico": null,
+      "sha256_revisado": "5dbc7f7b9da0e87a3154a5777d9ef13f6d36252deb4efba7694ee4922b7a6230",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "config/pagos.academico-completo.example.php",
+      "sha256_original": null,
+      "sha256_academico": "0cd6c06c7ebff7c5722c9d4d2884b41134cb2b9eb993f59e8a199fafe92a5698",
+      "sha256_revisado": "4acad7fddfd34872408665f411b0fd76354f83e8c27273a894cfc070c79a7381",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "config/pagos.example.php",
+      "sha256_original": null,
+      "sha256_academico": "d8ce134034bfb6ed000ed5861651e73175599d23db899ad73ad774d2e11299c0",
+      "sha256_revisado": "154a80b17d615441cbd176ffcd71e8329252f8d7018e8614e4533165e2be0dda",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "configurar_pagos.php",
+      "sha256_original": null,
+      "sha256_academico": "06f15f2f41e12b257daf1624b77b477beaab5c2fdda768c88b0d5f8f05efc7fe",
+      "sha256_revisado": "96565c2cac4338207d3c9d6e1ad79589c4d748f86df7fa5a53967a4ba8f29ae5",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "css/estilos.css",
+      "sha256_original": "1dfe9c49e2143c2244749ef2d06a8506e64f882ef689f06657fd2d6b575f8876",
+      "sha256_academico": "1dfe9c49e2143c2244749ef2d06a8506e64f882ef689f06657fd2d6b575f8876",
+      "sha256_revisado": "1dfe9c49e2143c2244749ef2d06a8506e64f882ef689f06657fd2d6b575f8876",
+      "estado_original": "sin_cambios"
+    },
+    {
+      "ruta": "css/pagos.css",
+      "sha256_original": null,
+      "sha256_academico": "82e0f2746edcb2d1a272b4abbb5caf59e0646694eb2a34c1904a88d065b32f5d",
+      "sha256_revisado": "82e0f2746edcb2d1a272b4abbb5caf59e0646694eb2a34c1904a88d065b32f5d",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "diagnostico_sistema.php",
+      "sha256_original": null,
+      "sha256_academico": null,
+      "sha256_revisado": "61739fde9180adf8d2398c15ded3712de69c2723fed7e87641699398cb63a58c",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "docs/.htaccess",
+      "sha256_original": null,
+      "sha256_academico": "fa28d421a28ed9b6f4b997d5119c2b8adbacff6e2dd119a179b71230f9664934",
+      "sha256_revisado": "fa28d421a28ed9b6f4b997d5119c2b8adbacff6e2dd119a179b71230f9664934",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "docs/CAMBIOS.md",
+      "sha256_original": null,
+      "sha256_academico": "570129039839f09cac07b926b0f9cafce5f89918077af3127d014d918b620259",
+      "sha256_revisado": "5a9321d429d839574b82c65aa8b75d76b3f7e68aa6f79947c45e0a9d8ec115b3",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "docs/CAMBIOS_ACADEMICOS.md",
+      "sha256_original": null,
+      "sha256_academico": "9c576f9fd12b49d466fe11553475a008da506ec22314a97f5b0535f5a66a34ed",
+      "sha256_revisado": "3e90eb71db461f22ecfb22cec83d284da73fa4e0a9446c4bcb96a6341bfd2284",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "docs/FUENTES_PAGOS.md",
+      "sha256_original": null,
+      "sha256_academico": "2e8a3e33af79fba59985b64e6948f6b8b12b41b10fef503249125454ce6632eb",
+      "sha256_revisado": "040e9ea39512fc88b6f9ee741ffbe160436cac0c32e168e7975b728aab690933",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "docs/LEGADO_IZIPAY.md",
+      "sha256_original": null,
+      "sha256_academico": "2f3702ec75e028b50983b35395d8e4b4266a377d163276fd623e62407a779dbb",
+      "sha256_revisado": "7f363bb3279aff017697f9a89cc9ad44ebd9e862537e6cdb5485d171d0da5dbe",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "docs/PRUEBAS_Y_DESPLIEGUE.md",
+      "sha256_original": null,
+      "sha256_academico": "93670222f004988ba3d464c7e5a3d0ca1b511b5aa604c87aa4eb7ff92414cd04",
+      "sha256_revisado": "417e7447d22c88e0fa1309dca4997df6014712644b6cb28b6e457f84cbeabd83",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "docs/RESULTADOS_ACADEMICOS.md",
+      "sha256_original": null,
+      "sha256_academico": "aefb2dba5ed79921d31182f13394c2ef74ca9e166d24e20c22f46fef55177779",
+      "sha256_revisado": "a528680797023a7049f9d5fca2b7ad037bb867b8f7b1f02777ec5ba2cc938fef",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "docs/RESULTADOS_PRUEBAS.txt",
+      "sha256_original": null,
+      "sha256_academico": "5fb5fb59c85a504d267b37d2571c769e0d678fcfdab9ab25d7e6976279a13a13",
+      "sha256_revisado": "e4e72056a43c1262606fca1593a341d1f12bfec30174371fbd689fd13a171919",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "docs/VERIFICACION_ACADEMICA.txt",
+      "sha256_original": null,
+      "sha256_academico": "02878a24bf424d091a554394881d4060a2a155e1bcc42bca5df76e6e0aca0348",
+      "sha256_revisado": "f2e1b5a815db83d93c3a84de558b546f7530dd82da2e65c897750c6f518a9359",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "docs/VERIFICACION_ARCHIVOS.txt",
+      "sha256_original": null,
+      "sha256_academico": "9f14f8a10cb7af8ba1478ac77e4453557a48dab58ee6972e61e71d91963ba79d",
+      "sha256_revisado": "94b56d03edcbe642407be4606e46fd369cc9e4cad677daffa5a9bc6ae651ed50",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "docs/evidencias/diagnostico_entorno_desarrollo.txt",
+      "sha256_original": null,
+      "sha256_academico": "07eab3a1d171b01da11e91e7c92010ef0427bf26a3453d78249278bc4717c584",
+      "sha256_revisado": "ba08e454cfd1efe61b1e0bf0f55c0d7ad277ca325dff456f731c5fc276cbf66a",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "docs/evidencias/interfaz_academica.json",
+      "sha256_original": null,
+      "sha256_academico": "f9eb65af10415608b53e89716c2b464389f50abb98448683a80d0f7ec7d133cb",
+      "sha256_revisado": "f9eb65af10415608b53e89716c2b464389f50abb98448683a80d0f7ec7d133cb",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "docs/evidencias/interfaz_original.json",
+      "sha256_original": null,
+      "sha256_academico": "c6f04d441c4ad512f613bbf110467db5f9b4afa0520ecd58ce2479f1b940401b",
+      "sha256_revisado": "c6f04d441c4ad512f613bbf110467db5f9b4afa0520ecd58ce2479f1b940401b",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "docs/evidencias/unitarias_academicas.txt",
+      "sha256_original": null,
+      "sha256_academico": "f16e44399a2be1408aceb2ec588ea359c35315f7124853ed21a0386639bbc4b3",
+      "sha256_revisado": "8fb557aad2749e5d4bd49abd45e68061bbe6df95e5cf36c9faa58c6ff5a0a5f9",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "docs/evidencias/unitarias_originales.txt",
+      "sha256_original": null,
+      "sha256_academico": "4148b4916870ec509d13b54f6dc62ffbd7a32f7d97fe2c257cc8496e263fcdab",
+      "sha256_revisado": "61e63a50ec00a1102dcb8c1fbc26ea523929ba6fddd324bb79da716c7a762277",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "docs/resultados_revision/academico_unit.log",
+      "sha256_original": null,
+      "sha256_academico": null,
+      "estado_original": "nuevo",
+      "sha256_revisado": "f16e44399a2be1408aceb2ec588ea359c35315f7124853ed21a0386639bbc4b3"
+    },
+    {
+      "ruta": "docs/resultados_revision/integracion_mysql.log",
+      "sha256_original": null,
+      "sha256_academico": null,
+      "estado_original": "nuevo",
+      "sha256_revisado": "1cb26fa12dbfe646311ed817ac115579b84037aa1ca90b8a49b2bea8c95a485b"
+    },
+    {
+      "ruta": "docs/resultados_revision/regresion_ventas.log",
+      "sha256_original": null,
+      "sha256_academico": null,
+      "estado_original": "nuevo",
+      "sha256_revisado": "7f92fa7c9c5b4e93c5cc0bd832ef116e95078bf19bfceb4878ebe4100ed84957"
+    },
+    {
+      "ruta": "docs/resultados_revision/syntax_js.log",
+      "sha256_original": null,
+      "sha256_academico": null,
+      "estado_original": "nuevo",
+      "sha256_revisado": "a979b28746985ea6a82fc38cb61e799cc021dbb145c9b91b5b32fb9168af0589"
+    },
+    {
+      "ruta": "docs/resultados_revision/syntax_php.log",
+      "sha256_original": null,
+      "sha256_academico": null,
+      "estado_original": "nuevo",
+      "sha256_revisado": "641287d128494d0c9c162ba88bab02e88e57dec57a89bb24e62a5f76f5f94c01"
+    },
+    {
+      "ruta": "docs/resultados_revision/ui.log",
+      "sha256_original": null,
+      "sha256_academico": null,
+      "estado_original": "nuevo",
+      "sha256_revisado": "e2a53b5365196f7056c389ff444c325041533c31b5d2715e301bb21d81641609"
+    },
+    {
+      "ruta": "docs/resultados_revision/ui_academica.log",
+      "sha256_original": null,
+      "sha256_academico": null,
+      "estado_original": "nuevo",
+      "sha256_revisado": "f0ed6bf867df24e204b3e18b003e6117fe7502d71499cfc63447110c9a11921c"
+    },
+    {
+      "ruta": "docs/resultados_revision/ui_regresion.log",
+      "sha256_original": null,
+      "sha256_academico": null,
+      "estado_original": "nuevo",
+      "sha256_revisado": "4b1d56acd4889325f2f37b8623528e6ccd1f2fd1d95b5caf25f84d4d04f6f0ef"
+    },
+    {
+      "ruta": "docs/resultados_revision/unit.log",
+      "sha256_original": null,
+      "sha256_academico": null,
+      "estado_original": "nuevo",
+      "sha256_revisado": "4148b4916870ec509d13b54f6dc62ffbd7a32f7d97fe2c257cc8496e263fcdab"
+    },
+    {
+      "ruta": "docs/resultados_revision/verificacion_estatica.json",
+      "sha256_original": null,
+      "sha256_academico": null,
+      "estado_original": "nuevo",
+      "sha256_revisado": "e1884fa13c3862eeeecfc4fc2533cfd3d0d16d1a78b745df2027e55ba9cae38b"
+    },
+    {
+      "ruta": "docs/resultados_revision/vistas_modulos.log",
+      "sha256_original": null,
+      "sha256_academico": null,
+      "estado_original": "nuevo",
+      "sha256_revisado": "265c4dd0b47814de864bd8a68aaea55e30e8a85a97f97faa7cdc1818a6412edf"
+    },
+    {
+      "ruta": "fontana_db.sql",
+      "sha256_original": "9687e3d6970be0336de57f3a610c90307cc417680d80aac4fa97ce90fd345331",
+      "sha256_academico": "9687e3d6970be0336de57f3a610c90307cc417680d80aac4fa97ce90fd345331",
+      "sha256_revisado": "6758f4ef04b1d5dd04310122324c44829b322d3862332a5a92a5879198b0c7aa",
+      "estado_original": "modificado"
+    },
+    {
+      "ruta": "img/LEER_qr_pago.txt",
+      "sha256_original": "ab4e103b4d79eb402cef709b48c13daaa0a2264d7cc341dc547aa4b22ec2c91e",
+      "sha256_academico": "ab4e103b4d79eb402cef709b48c13daaa0a2264d7cc341dc547aa4b22ec2c91e",
+      "sha256_revisado": "ab4e103b4d79eb402cef709b48c13daaa0a2264d7cc341dc547aa4b22ec2c91e",
+      "estado_original": "sin_cambios"
+    },
+    {
+      "ruta": "img/logo_fontana1.png",
+      "sha256_original": "fe0b70bf21dccfd720610bca548852645ac86b818e5183309f77acc8fadce6a7",
+      "sha256_academico": "fe0b70bf21dccfd720610bca548852645ac86b818e5183309f77acc8fadce6a7",
+      "sha256_revisado": "fe0b70bf21dccfd720610bca548852645ac86b818e5183309f77acc8fadce6a7",
+      "estado_original": "sin_cambios"
+    },
+    {
+      "ruta": "img/qr_yape.png",
+      "sha256_original": "5b04d32e26caeeed3e039a3cf692430a721e2635463ecf10b46e344d0e9beb92",
+      "sha256_academico": "5b04d32e26caeeed3e039a3cf692430a721e2635463ecf10b46e344d0e9beb92",
+      "sha256_revisado": "5b04d32e26caeeed3e039a3cf692430a721e2635463ecf10b46e344d0e9beb92",
+      "estado_original": "sin_cambios"
+    },
+    {
+      "ruta": "includes/.htaccess",
+      "sha256_original": null,
+      "sha256_academico": "fa28d421a28ed9b6f4b997d5119c2b8adbacff6e2dd119a179b71230f9664934",
+      "sha256_revisado": "fa28d421a28ed9b6f4b997d5119c2b8adbacff6e2dd119a179b71230f9664934",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "includes/api_documentos.php",
+      "sha256_original": "0511a5f369cf5499e7e4b10eea029ea1c211f392cbe56c6d132d7414bc4c141e",
+      "sha256_academico": "0511a5f369cf5499e7e4b10eea029ea1c211f392cbe56c6d132d7414bc4c141e",
+      "sha256_revisado": "0511a5f369cf5499e7e4b10eea029ea1c211f392cbe56c6d132d7414bc4c141e",
+      "estado_original": "sin_cambios"
+    },
+    {
+      "ruta": "includes/demo_pagos.php",
+      "sha256_original": null,
+      "sha256_academico": "0ae84d6436ddb8218570c95b4154026d908bec086fffb0c5201353e766d15ef1",
+      "sha256_revisado": "0ae84d6436ddb8218570c95b4154026d908bec086fffb0c5201353e766d15ef1",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "includes/footer.php",
+      "sha256_original": "8fb98e518bb14a3ea426079b0957b199aa35a3967947e4556d4fd37bbe3298cf",
+      "sha256_academico": "8fb98e518bb14a3ea426079b0957b199aa35a3967947e4556d4fd37bbe3298cf",
+      "sha256_revisado": "8fb98e518bb14a3ea426079b0957b199aa35a3967947e4556d4fd37bbe3298cf",
+      "estado_original": "sin_cambios"
+    },
+    {
+      "ruta": "includes/header.php",
+      "sha256_original": "544f18da1a7b1469c6040e4e160e6238b94b68e01454315b94b8896f5d5467a2",
+      "sha256_academico": "edcfa88276e371cc24f8c513cd359451580a41df22357ae5d777cac83d9dbcd4",
+      "sha256_revisado": "b43022b5e6e41c06bc4114fa9a7145871908040f51f905d17c288b015161e3b7",
+      "estado_original": "modificado"
+    },
+    {
+      "ruta": "includes/helpers.php",
+      "sha256_original": "6d7a4a1a8deea60f43984f29e4370ccbea560af753fbee100138f187cb095fcd",
+      "sha256_academico": "bde8ddb83c6f578684ef6351887f5eee5918503a71298f863e259e749dff1616",
+      "sha256_revisado": "1e3e0c7a7b448ed536e44a30322b5354ccdfe6c99c2a7dcf7469f9173505faca",
+      "estado_original": "modificado"
+    },
+    {
+      "ruta": "includes/instalacion_pagos.php",
+      "sha256_original": null,
+      "sha256_academico": null,
+      "sha256_revisado": "4e07b0c47590c53020318d3b7b76f5cbf0dfdad9b8f30e652a487e4ba6bad944",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "includes/izipay.php",
+      "sha256_original": null,
+      "sha256_academico": "8a1c0db0674c2721d3b1b6e048d7af399df8c40be1ebc035ca9f23f1533fa013",
+      "sha256_revisado": "8a1c0db0674c2721d3b1b6e048d7af399df8c40be1ebc035ca9f23f1533fa013",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "includes/mercadopago.php",
+      "sha256_original": null,
+      "sha256_academico": "23c8771525abce2eea7799fcb864527f84291f89b05ef26caad5489e51cd46fe",
+      "sha256_revisado": "23c8771525abce2eea7799fcb864527f84291f89b05ef26caad5489e51cd46fe",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "includes/pago_demo_vista.php",
+      "sha256_original": null,
+      "sha256_academico": "8fe6cc573f6aff63e5b8266286bf7078dbf619478c1a7a98c1bd05aa8536280f",
+      "sha256_revisado": "8fe6cc573f6aff63e5b8266286bf7078dbf619478c1a7a98c1bd05aa8536280f",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "includes/pago_mp_vista.php",
+      "sha256_original": null,
+      "sha256_academico": "83427bb8ea1a70e830ce361d2da79b5bb07a784eda16e84128bc3c1a559e9fc5",
+      "sha256_revisado": "83427bb8ea1a70e830ce361d2da79b5bb07a784eda16e84128bc3c1a559e9fc5",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "includes/pago_vista.php",
+      "sha256_original": null,
+      "sha256_academico": "9113587337f76bd8045ab1715c434afa9d7025cb155be1754e4825a29d2ad661",
+      "sha256_revisado": "9113587337f76bd8045ab1715c434afa9d7025cb155be1754e4825a29d2ad661",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "includes/pagos.php",
+      "sha256_original": null,
+      "sha256_academico": "b3739d24325dc7f1f50f2eeca9ff61e6dd5cb8f610dbc464daab73342732465a",
+      "sha256_revisado": "7dc52c61f1979232468fce726cdb0f62c21f0e52d7e29f5c1079f5df30ba4de0",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "includes/venta_resultado.php",
+      "sha256_original": null,
+      "sha256_academico": null,
+      "sha256_revisado": "c64d332f25180b0f04fd3a39abc2a1e74d4824e77b43f40d901549676571b386",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "includes/ventas_core.php",
+      "sha256_original": null,
+      "sha256_academico": null,
+      "sha256_revisado": "5fec9355cc9c3e9c8e19fdcb2e3f471feffe319ca1df17aad322272677defc34",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "index.php",
+      "sha256_original": "64266acfe02ce51ad641986dcd4daa9154cc76affd84bc9813ac6eb7a1d8ee07",
+      "sha256_academico": "64266acfe02ce51ad641986dcd4daa9154cc76affd84bc9813ac6eb7a1d8ee07",
+      "sha256_revisado": "64266acfe02ce51ad641986dcd4daa9154cc76affd84bc9813ac6eb7a1d8ee07",
+      "estado_original": "sin_cambios"
+    },
+    {
+      "ruta": "inventario.php",
+      "sha256_original": "d20fdbba3eaf55dcb630d85e262e4b81b0c69565658f77f7d89fa323fda20e88",
+      "sha256_academico": "2540c9b1ad58c4a2fc12de94439cc2d2ce38ea45a8f3b7c50bd5b5502bf1dc05",
+      "sha256_revisado": "efd8441b67cf3e8b9fadb0fb6b3a26a1c51c26ce183cdd8590c81641462743e4",
+      "estado_original": "modificado"
+    },
+    {
+      "ruta": "js/demo-movil.js",
+      "sha256_original": null,
+      "sha256_academico": "6af2d67a18125a9c072acfecd3a06901eda2ffffddc0fb9129d57dccfa2d6c91",
+      "sha256_revisado": "6af2d67a18125a9c072acfecd3a06901eda2ffffddc0fb9129d57dccfa2d6c91",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "js/pagos-academicos.js",
+      "sha256_original": null,
+      "sha256_academico": "017e77a1b8ba91fe37b5b6adfdac25736b281a80fbe2450049df668bffb02956",
+      "sha256_revisado": "017e77a1b8ba91fe37b5b6adfdac25736b281a80fbe2450049df668bffb02956",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "js/pagos.js",
+      "sha256_original": null,
+      "sha256_academico": "b1c7150881e890fa9951fcae5c91b8d2e3f6089ccdad79ef54cba64a2d0549d1",
+      "sha256_revisado": "b1c7150881e890fa9951fcae5c91b8d2e3f6089ccdad79ef54cba64a2d0549d1",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "js/vendor/LICENSE-QR.txt",
+      "sha256_original": null,
+      "sha256_academico": "247dce3f54a5db1792f8d373b88532552f6268f84215520d2683ce8a25b694a1",
+      "sha256_revisado": "247dce3f54a5db1792f8d373b88532552f6268f84215520d2683ce8a25b694a1",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "js/vendor/fontana-qr.js",
+      "sha256_original": null,
+      "sha256_academico": "ca4471efcca3975bc0e20ff75e5fcb9ad75be2c50766a3eaf3bdbba646dafccb",
+      "sha256_revisado": "ca4471efcca3975bc0e20ff75e5fcb9ad75be2c50766a3eaf3bdbba646dafccb",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "js/ventas-pagos.js",
+      "sha256_original": null,
+      "sha256_academico": "92ffd1bf8852512e46fef40f98973c37179eb89c3ac99127ce61309a0a688460",
+      "sha256_revisado": "bc4380bbf7f892d3432faea5a9c77fc4a2a659bd3edd7dfadd611fd8be1711da",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "login.php",
+      "sha256_original": "8040c42862925c50ccbb520d6fc1d0c1b27e72032b3a6f323218ab3ab3b22d2f",
+      "sha256_academico": "692124f7961a44bd0def173a00514311737440643978c11e6a9494b46c57d620",
+      "sha256_revisado": "0991012540a94215266c616f6f2ad10b12bf81f177081c207b4044bbbc37a3cb",
+      "estado_original": "modificado"
+    },
+    {
+      "ruta": "logout.php",
+      "sha256_original": "2a750fc07180ff6c40f7f136e4e953e3f6429a6e644f3fa69ce2854f7a17ee92",
+      "sha256_academico": "2a750fc07180ff6c40f7f136e4e953e3f6429a6e644f3fa69ce2854f7a17ee92",
+      "sha256_revisado": "8469e980d0b3cb1bb7a8ec5a7be814906bb6d01021f4bf331d722bbf108f2cae",
+      "estado_original": "modificado"
+    },
+    {
+      "ruta": "pago.php",
+      "sha256_original": null,
+      "sha256_academico": "a9421e709dd0622f48d92bf89a30f806291e431c36e4a6709c9eaec067a43bba",
+      "sha256_revisado": "a9421e709dd0622f48d92bf89a30f806291e431c36e4a6709c9eaec067a43bba",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "pago_demo.php",
+      "sha256_original": null,
+      "sha256_academico": "8044b361705b2305f268dae5f79bf217f6040b0038c496f4461461570a077380",
+      "sha256_revisado": "8044b361705b2305f268dae5f79bf217f6040b0038c496f4461461570a077380",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "pagos.php",
+      "sha256_original": null,
+      "sha256_academico": "8761e1db8475845192f8dab9eda4f25e1bf6cc03debbc83d6535372fc3206c77",
+      "sha256_revisado": "8761e1db8475845192f8dab9eda4f25e1bf6cc03debbc83d6535372fc3206c77",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "productos.php",
+      "sha256_original": "4f8ac4a78f9578286a0f93648175b09499374fd5e603ca90821fee3f4a141bc3",
+      "sha256_academico": "e4f6236a900f717efa46c322da1d765e9106440459441d0db3bbfa4759d8c2f2",
+      "sha256_revisado": "fae25a8af0866aede08f57ac9d33016e5578b83bf5d6a23748843559d2f78b3d",
+      "estado_original": "modificado"
+    },
+    {
+      "ruta": "reporte_pdf.php",
+      "sha256_original": "fcbd4e39727c2eee4ab4fa88ab2b313f393e53e140cf5937e4d42e09692de4d7",
+      "sha256_academico": "fcbd4e39727c2eee4ab4fa88ab2b313f393e53e140cf5937e4d42e09692de4d7",
+      "sha256_revisado": "fcbd4e39727c2eee4ab4fa88ab2b313f393e53e140cf5937e4d42e09692de4d7",
+      "estado_original": "sin_cambios"
+    },
+    {
+      "ruta": "reportes.php",
+      "sha256_original": "4458c92f06c3c9d7addabe9c44158d7b0e77dd802b790c6fa236b06934f0dd02",
+      "sha256_academico": "4458c92f06c3c9d7addabe9c44158d7b0e77dd802b790c6fa236b06934f0dd02",
+      "sha256_revisado": "4458c92f06c3c9d7addabe9c44158d7b0e77dd802b790c6fa236b06934f0dd02",
+      "estado_original": "sin_cambios"
+    },
+    {
+      "ruta": "reposicion.php",
+      "sha256_original": "d0af3e1b1900c4272c367ec974a92b8d9689cc944646328cc77c5659b2e4813b",
+      "sha256_academico": "bea0834c0abd59e944f23e1ebe10cb3dc086b67438de47a6c85429c1b5d6f511",
+      "sha256_revisado": "3bb525e7713c33a615c57bf53e89b758cdb52d98b33484202abcf52544b1f2dc",
+      "estado_original": "modificado"
+    },
+    {
+      "ruta": "sql/.htaccess",
+      "sha256_original": null,
+      "sha256_academico": "fa28d421a28ed9b6f4b997d5119c2b8adbacff6e2dd119a179b71230f9664934",
+      "sha256_revisado": "fa28d421a28ed9b6f4b997d5119c2b8adbacff6e2dd119a179b71230f9664934",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "sql/fontana_db.sql",
+      "sha256_original": "e2b999b69c64d60b2515cb99b4382781f92960a2055f9be0aee936ba13c57dea",
+      "sha256_academico": "e2b999b69c64d60b2515cb99b4382781f92960a2055f9be0aee936ba13c57dea",
+      "sha256_revisado": "6758f4ef04b1d5dd04310122324c44829b322d3862332a5a92a5879198b0c7aa",
+      "estado_original": "modificado"
+    },
+    {
+      "ruta": "sql/migracion_api_dni_ruc.sql",
+      "sha256_original": "14ec50ed41d04b135cc6b0c9dc1ecfeae25b31c0354eb2deb9351ef53d473a8c",
+      "sha256_academico": "14ec50ed41d04b135cc6b0c9dc1ecfeae25b31c0354eb2deb9351ef53d473a8c",
+      "sha256_revisado": "14ec50ed41d04b135cc6b0c9dc1ecfeae25b31c0354eb2deb9351ef53d473a8c",
+      "estado_original": "sin_cambios"
+    },
+    {
+      "ruta": "sql/migracion_pago_qr.sql",
+      "sha256_original": "c62024bdb6396cc8d6062b55c20b695c57424c1c22fa45d2532ae3b4371561ef",
+      "sha256_academico": "c62024bdb6396cc8d6062b55c20b695c57424c1c22fa45d2532ae3b4371561ef",
+      "sha256_revisado": "c62024bdb6396cc8d6062b55c20b695c57424c1c22fa45d2532ae3b4371561ef",
+      "estado_original": "sin_cambios"
+    },
+    {
+      "ruta": "sql/migracion_pagos_academicos.sql",
+      "sha256_original": null,
+      "sha256_academico": "76223dea50e14bb7146ad80f1a5ee226983ad00ad901b51f8ff6b2707d8d9c60",
+      "sha256_revisado": "76223dea50e14bb7146ad80f1a5ee226983ad00ad901b51f8ff6b2707d8d9c60",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "sql/migracion_pagos_api.sql",
+      "sha256_original": null,
+      "sha256_academico": "c6d5e9f21c44634afc6c80318f1a1e702a32f1d22795bcaa222e6ccf9ed6a538",
+      "sha256_revisado": "c6d5e9f21c44634afc6c80318f1a1e702a32f1d22795bcaa222e6ccf9ed6a538",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "tests/.htaccess",
+      "sha256_original": null,
+      "sha256_academico": "fa28d421a28ed9b6f4b997d5119c2b8adbacff6e2dd119a179b71230f9664934",
+      "sha256_revisado": "fa28d421a28ed9b6f4b997d5119c2b8adbacff6e2dd119a179b71230f9664934",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "tests/academico_unit.php",
+      "sha256_original": null,
+      "sha256_academico": "81e00af457a1a39bdec5f0c5177bef6926ed48ed479e4d0f1df6955df693dfe8",
+      "sha256_revisado": "81e00af457a1a39bdec5f0c5177bef6926ed48ed479e4d0f1df6955df693dfe8",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "tests/diagnostico.php",
+      "sha256_original": null,
+      "sha256_academico": "3d88e64eef3f4f092e7893f42a112e1ec408919b3256e458f96f4c6c54312878",
+      "sha256_revisado": "a1ec6e9b55b1bb3dc968b73a7fbe0ffe204524fb40e18f93950ad70e42a8fc2f",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "tests/fixtures/base_original.sql",
+      "sha256_original": null,
+      "sha256_academico": null,
+      "sha256_revisado": "b13e0fbdd991ea144e90e9a6825a961443723affc7ede157a00705b6afbd8e92",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "tests/generar_academico.php",
+      "sha256_original": null,
+      "sha256_academico": "4240d742484bfae0c8b04810266acce9e5215a0130f407626cf117e7d154da7c",
+      "sha256_revisado": "4240d742484bfae0c8b04810266acce9e5215a0130f407626cf117e7d154da7c",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "tests/generar_vistas.php",
+      "sha256_original": null,
+      "sha256_academico": "daa72ef8d6e0d90ca0c32b713b53bafcc87f05dd943d7f75a64f5e02edc100bf",
+      "sha256_revisado": "455ade91e2112d69e6e1a3bf6e78a23816c841c8dc1fd034644dce3483184d4a",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "tests/integracion_mysql.php",
+      "sha256_original": null,
+      "sha256_academico": null,
+      "sha256_revisado": "697687518309980360e52189abb9de9d3ff680ab2db7d411ff8754b1bc81e2a0",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "tests/interfaz.py",
+      "sha256_original": null,
+      "sha256_academico": "f07706c629f9fb5eddc3777d3950f3467e84186590ccf175dbadfa33cab451b4",
+      "sha256_revisado": "f07706c629f9fb5eddc3777d3950f3467e84186590ccf175dbadfa33cab451b4",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "tests/interfaz_academica.py",
+      "sha256_original": null,
+      "sha256_academico": "5627eaa974b438734e40718c2a0625c912ccc354d3251b16a4897e43673454d3",
+      "sha256_revisado": "5627eaa974b438734e40718c2a0625c912ccc354d3251b16a4897e43673454d3",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "tests/interfaz_regresion.py",
+      "sha256_original": null,
+      "sha256_academico": null,
+      "sha256_revisado": "700b41e002f42e12ef70f35a218c2f826e113696a37167a5e2d195a366dee3f8",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "tests/regresion_ventas.php",
+      "sha256_original": null,
+      "sha256_academico": null,
+      "sha256_revisado": "ca861fc146c8ac595ca5bc765cfaadc44b0a5f00d70a5050daf38be4aab4d212",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "tests/unit.php",
+      "sha256_original": null,
+      "sha256_academico": "74e542a4646eee3334855af85497e6827d09e1126bb562da71fc7883e04881a5",
+      "sha256_revisado": "74e542a4646eee3334855af85497e6827d09e1126bb562da71fc7883e04881a5",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "tests/vistas_modulos.php",
+      "sha256_original": null,
+      "sha256_academico": null,
+      "sha256_revisado": "2135a5c278d76d4d7fbf2b24f091da2cb912d1c4108d4910d748aa08c469cea9",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "usuarios.php",
+      "sha256_original": "205826322c51f79bd82f004dba8c9829ae1486ee46f20e57f2c9a84b83b95d68",
+      "sha256_academico": "45fff348b04dc09399d6fb83358914c7c41bb0f096e949ad44bae712d1d69241",
+      "sha256_revisado": "776850b5a04550e57999de0fd5c2d4664bf8a4dfe66da1ae0aa7ed486fb12a4b",
+      "estado_original": "modificado"
+    },
+    {
+      "ruta": "ventas.php",
+      "sha256_original": "536a28e91c43cc8b26c8d4954d403db7a810fb33410bd8795facb7246b774b2a",
+      "sha256_academico": "844f84aae30b14741e9f443077dc01a81399774c8d5d617e28b2783a54ac6b59",
+      "sha256_revisado": "416594e71230430e9261cabc76fafcdba1bf7a1c8a13be0dbbb6e61a3bebc0aa",
+      "estado_original": "modificado"
+    },
+    {
+      "ruta": "webhook_izipay.php",
+      "sha256_original": null,
+      "sha256_academico": "598c813b65a040536a0f25970beec047a70871f50ac1534f58ea6ca215d9510e",
+      "sha256_revisado": "598c813b65a040536a0f25970beec047a70871f50ac1534f58ea6ca215d9510e",
+      "estado_original": "nuevo"
+    },
+    {
+      "ruta": "webhook_mercadopago.php",
+      "sha256_original": null,
+      "sha256_academico": "da75eadfa28702bede047dad676b8d0838a4519d8bd5fbba7944196928f51c82",
+      "sha256_revisado": "da75eadfa28702bede047dad676b8d0838a4519d8bd5fbba7944196928f51c82",
+      "estado_original": "nuevo"
+    }
+  ],
+  "nota": "El propio manifiesto se excluye para evitar un hash autorreferencial."
+}

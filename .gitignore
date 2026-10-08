@@ -1,0 +1,15 @@
+# No publicar credenciales reales
+config/api.php
+
+# Archivos temporales
+*.log
+.DS_Store
+
+# Credenciales de la pasarela
+config/pagos.php
+.env
+*.bak
+
+/config/conexion.php
+/config/pagos.local.php
+/tests/.runtime/

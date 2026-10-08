@@ -1,0 +1,19 @@
+{
+  "base": "fontana_interfaz_corregida.zip",
+  "added": [
+    "LEEME_QR_IZIPAY.md",
+    "img/qr_izipay.png",
+    "img/qr_plin.png"
+  ],
+  "removed": [],
+  "changed": [
+    "INFORME_INTERFAZ.md",
+    "LEEME_INTERFAZ.md",
+    "img/LEER_qr_pago.txt",
+    "img/qr_yape.png",
+    "includes/pago_vista.php",
+    "includes/venta_cobro.php",
+    "tests/interfaz_regresion.py"
+  ],
+  "sql_changed": []
+}

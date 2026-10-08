@@ -1,0 +1,25 @@
+Fixtures académicas: <salida_de_pruebas>/interfaz_integrada/vistas
+OK QR académico recibe importe fijo de S/ 17.50 y enlace de esa orden
+OK QR se prepara una sola vez automáticamente y no existe botón Mostrar QR
+OK QR real decodificado: contiene exactamente el enlace académico con token
+OK Mostrar un QR no aprueba la prueba
+OK Vista móvil carga el total y solicita retirar el token (history/storage simulados)
+OK El token del QR no viaja en parámetros HTTP ni en URL del endpoint
+OK Simulador móvil a 390 px sin desbordamiento ni datos bancarios
+OK Aprobación desde celular sincroniza cajero y habilita comprobante académico
+OK Plin se identifica como simulador y pendiente no se registra como aprobado
+OK Rechazo cierra la prueba sin comprobante aprobado
+OK Efectivo de prueba calcula S/ 2.50 de vuelto y no envía un total manipulable
+OK Tarjeta local es una simulación explícita, sin datos de tarjeta y adaptable a 360 px
+OK Orden vencida no genera QR ni permite una aprobación desde su interfaz
+OK Fallo al preparar el QR ofrece reintento sin confirmar pago
+OK Recuperar conexión muestra QR y vuelve a ocultar el botón de reintento
+OK Yape tokeniza celular/OTP de prueba; backend recibe token y no el importe del navegador
+OK Resultado de prueba se identifica sin tecnicismos ni venta ficticia
+OK Respuesta rechazada del adaptador no se convierte en aprobación
+OK Payment Brick recibe S/ 17.50 y envía token, no PAN/CVV, a Fontana
+OK Error de comunicación conserva resultado desconocido y bloquea reenvío accidental
+OK Consulta API automática funciona junto al polling local y recupera sin crear otro pago
+OK Fallo de carga del SDK muestra error sin enviar ni aprobar el pago
+OK Sin excepciones JavaScript en todos los escenarios académicos probados
+RESULTADO 23 pruebas de interfaz académica aprobadas

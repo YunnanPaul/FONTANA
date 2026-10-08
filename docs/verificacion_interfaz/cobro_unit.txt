@@ -1,0 +1,56 @@
+OK El total sale de productos, no de un campo del navegador
+OK Preparar el QR no registra una venta ni movimientos
+OK Preparar cobro conserva el stock
+OK Se guardan precios exactos para la comprobación final
+OK La preparación queda aislada por clave en sesión
+OK La preparación tiene una vigencia limitada
+OK Se conservan las dos líneas del pedido
+OK Repetir preparación no crea ninguna venta
+OK Confirmar ignora importe, método y productos manipulados
+OK Solo la confirmación crea venta, detalle e inventario
+OK Se descuenta el stock una sola vez al confirmar
+OK Reenvío de confirmación devuelve el mismo resultado sin duplicar
+OK No se vuelve a abrir un cobro ya registrado
+OK Confirmación sin pedido preparado rechazada
+OK Otra persona no puede confirmar el pedido de la sesión
+OK Confirmación rechazada: precio
+OK Sin registros parciales: precio
+OK Confirmación rechazada: stock
+OK Sin registros parciales: stock
+OK Confirmación rechazada: caja
+OK Sin registros parciales: caja
+OK Confirmación rechazada: vencido
+OK Sin registros parciales: vencido
+OK Confirmación rechazada: sin_confirmacion
+OK Sin registros parciales: sin_confirmacion
+OK Confirmación rechazada: detalle
+OK Sin registros parciales: detalle
+OK Confirmación rechazada: movimiento
+OK Sin registros parciales: movimiento
+OK No se permite confirmar efectivo insuficiente
+OK Vuelto de S/ 2.50 comprobado en servidor
+OK Preparación rechazada: sin_clave
+OK Preparación fallida no escribe: sin_clave
+OK Preparación rechazada: sin_producto
+OK Preparación fallida no escribe: sin_producto
+OK Preparación rechazada: sin_stock
+OK Preparación fallida no escribe: sin_stock
+OK Preparación rechazada: precio_cero
+OK Preparación fallida no escribe: precio_cero
+OK Preparación rechazada: caja_cerrada
+OK Preparación fallida no escribe: caja_cerrada
+OK Preparación rechazada: cantidad
+OK Preparación fallida no escribe: cantidad
+OK Preparación rechazada: metodo
+OK Preparación fallida no escribe: metodo
+OK Dos pedidos preparados no se sobreescriben entre pestañas
+OK Otra pestaña no sobreescribe el importe de una preparación
+OK El importe mostrado permanece inmutable
+OK Otra persona no cancela ni restaura el pedido
+OK Volver al pedido cancela la preparación de la sesión
+OK Volver conserva carrito y cliente
+OK Se invalida la ventana anterior, no solo se oculta
+OK El carrito restaurado obtiene una clave nueva
+OK Una ventana vieja no confirma después de volver al pedido
+OK Volver al pedido no crea ni borra movimientos de base
+RESULTADO: 55 comprobaciones del cobro aprobadas con almacenamiento EN MEMORIA, sin MySQL.

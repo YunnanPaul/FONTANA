@@ -1,0 +1,29 @@
+{
+  "passed": 23,
+  "tests": [
+    "QR académico recibe importe fijo de S/ 17.50 y enlace de esa orden",
+    "QR se prepara una sola vez automáticamente y no existe botón Mostrar QR",
+    "QR real decodificado: contiene exactamente el enlace académico con token",
+    "Mostrar un QR no aprueba la prueba",
+    "Vista móvil carga el total y solicita retirar el token (history/storage simulados)",
+    "El token del QR no viaja en parámetros HTTP ni en URL del endpoint",
+    "Simulador móvil a 390 px sin desbordamiento ni datos bancarios",
+    "Aprobación desde celular sincroniza cajero y habilita comprobante académico",
+    "Plin se identifica como simulador y pendiente no se registra como aprobado",
+    "Rechazo cierra la prueba sin comprobante aprobado",
+    "Efectivo de prueba calcula S/ 2.50 de vuelto y no envía un total manipulable",
+    "Tarjeta local es una simulación explícita, sin datos de tarjeta y adaptable a 360 px",
+    "Orden vencida no genera QR ni permite una aprobación desde su interfaz",
+    "Fallo al preparar el QR ofrece reintento sin confirmar pago",
+    "Recuperar conexión muestra QR y vuelve a ocultar el botón de reintento",
+    "Yape tokeniza celular/OTP de prueba; backend recibe token y no el importe del navegador",
+    "Resultado de prueba se identifica sin tecnicismos ni venta ficticia",
+    "Respuesta rechazada del adaptador no se convierte en aprobación",
+    "Payment Brick recibe S/ 17.50 y envía token, no PAN/CVV, a Fontana",
+    "Error de comunicación conserva resultado desconocido y bloquea reenvío accidental",
+    "Consulta API automática funciona junto al polling local y recupera sin crear otro pago",
+    "Fallo de carga del SDK muestra error sin enviar ni aprobar el pago",
+    "Sin excepciones JavaScript en todos los escenarios académicos probados"
+  ],
+  "note": "Respuestas API/SDK simuladas. No valida MySQL ni API externa real."
+}

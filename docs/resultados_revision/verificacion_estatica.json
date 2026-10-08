@@ -1,0 +1,19 @@
+{
+  "checks": [
+    "Sintaxis PHP: 50 archivos",
+    "Sintaxis JS externos: 5 archivos",
+    "Sintaxis de bloques JS renderizados: 7",
+    "9 archivos principales preservados byte a byte respecto al original",
+    "32 rutas de archivos originales conservadas; ninguna eliminada",
+    "2 SQL base idénticos: 8 tablas no destructivas y 62 semillas protegidas contra reinserción",
+    "Recursos locales estáticos referenciados presentes; QR Plin bancario no inventado",
+    "Columnas requeridas por el código coinciden con ambas migraciones de pagos"
+  ],
+  "php_files": 50,
+  "js_files": 5,
+  "inline_js_blocks": 7,
+  "original_files": 32,
+  "mysql_executed": false,
+  "external_apis_executed": false,
+  "runtime_php": "8.4.23"
+}

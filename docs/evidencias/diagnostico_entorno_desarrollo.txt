@@ -1,0 +1,10 @@
+DOCUMENTO HISTÓRICO DE LA ENTREGA ANTERIOR.
+La revisión actual, sus cambios y resultados están en ../LEEME_PRIMERO.md e ../INFORME_REVISION.md.
+Las instrucciones y cifras de este documento pueden no corresponder a la versión corregida.
+
+Fontana · Diagnóstico previo (sin cobros ni escritura de datos)
+FALTA mysqli
+OK json
+OK openssl
+Modo: demo (no se muestran llaves)
+Resultado: 1 punto(s) pendientes. El simulador local no necesita cURL ni credenciales. La API externa sí necesita cURL, Internet y llaves TEST-.

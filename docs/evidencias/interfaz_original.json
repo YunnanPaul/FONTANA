@@ -1,0 +1,16 @@
+{
+  "passed": 10,
+  "tests": [
+    "Total y subtotales: 2×5 + 3×2.50 = 17.50",
+    "Quitar líneas y limpiar última línea actualiza total",
+    "Vuelto calculado antes de registrar venta",
+    "Venta manual aparece después de respuesta simulada; no se envía total del navegador",
+    "Checkout simulado recibe QR/PEN/17.50 sin marcar pago al abrirse",
+    "Callback se remite a backend; sandbox se muestra separado de ventas",
+    "Code 00 sin firma no confirma el pago",
+    "Tarjetas usan checkout CARD y no campos locales de tarjeta/CVV",
+    "Vista móvil a 390 px sin desbordamiento horizontal",
+    "Sin errores JavaScript en los recorridos probados"
+  ],
+  "note": "Pruebas de interfaz en memoria con API/SDK simulados. No prueban MySQL ni operaciones reales."
+}

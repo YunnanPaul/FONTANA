@@ -1,0 +1,52 @@
+{
+  "version": "2026-09-09-dni-ruc-automatico-1",
+  "base": "fontana_completo_qr_izipay.zip",
+  "database_changes": false,
+  "payment_qr_changed": false,
+  "behavior": {
+    "dni_length": 8,
+    "ruc_length": 11,
+    "automatic_delay_ms": 420,
+    "manual_search_button": false,
+    "stale_request_protection": true,
+    "abort_previous_request": true
+  },
+  "files": {
+    "ventas.php": {
+      "sha256": "c0b6b4465827a64cf36031d7114f8fc6cf0eff539d06b5026ec6678ce5bc951d",
+      "bytes": 35413
+    },
+    "css/pagos.css": {
+      "sha256": "8f47e0ce584d1bfdec3577a581a5bf153551efe68eb4917f1d4fce2f954982f1",
+      "bytes": 8269
+    },
+    "includes/header.php": {
+      "sha256": "1e61f7b06884ff97e008143da3486832b27df4c39b57dca64f3e64c7e41c6492",
+      "bytes": 3601
+    },
+    "README_API_DNI_RUC.md": {
+      "sha256": "5b258efd57e10e0615b18647f81b176586ad979bc3f75fb3d93ba55cba92127b",
+      "bytes": 2777
+    },
+    "tests/interfaz_documentos_automaticos.py": {
+      "sha256": "a0f451dc8275e671fbd34d08bd37c8fa88137b09f28a9bd816bdd282491211db",
+      "bytes": 9532
+    },
+    "LEEME_DNI_RUC_AUTOMATICO.md": {
+      "sha256": "c5f742578854682b444f002cd83b8ba6088052be8bb3e04dbe1837f14998e76c",
+      "bytes": 2201
+    }
+  },
+  "tests": {
+    "php_unit": 56,
+    "academic_unit": 89,
+    "sales_regression": 32,
+    "checkout_unit": 55,
+    "module_views": 13,
+    "existing_browser_regression": 32,
+    "existing_browser_base": 10,
+    "existing_browser_payment": 23,
+    "automatic_document_browser": 20,
+    "note": "Pruebas con fixtures o respuestas controladas; sin MySQL real ni proveedor documental externo."
+  }
+}

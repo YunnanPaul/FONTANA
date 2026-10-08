@@ -1,0 +1,205 @@
+DOCUMENTO HISTÓRICO DE LA ENTREGA ANTERIOR.
+La revisión actual, sus cambios y resultados están en ../LEEME_PRIMERO.md e ../INFORME_REVISION.md.
+Las instrucciones y cifras de este documento pueden no corresponder a la versión corregida.
+
+VERIFICACIÓN DE ARCHIVOS · FONTANA ACADÉMICO · 2026-09-06
+Comparación SHA-256 de todos los archivos de los ZIP de entrada.
+No se muestran valores de configuración ni secretos.
+
+ZIP original
+============
+
+Sin modificaciones: 21
+  .vscode/launch.json
+  .vscode/tasks.json
+  CORRECCIONES_REQUISITOS.md
+  README_API_DNI_RUC.md
+  api_consulta_documento.php
+  config/api.example.php
+  config/api.php
+  css/estilos.css
+  fontana_db.sql
+  img/LEER_qr_pago.txt
+  img/logo_fontana1.png
+  img/qr_yape.png
+  includes/api_documentos.php
+  includes/footer.php
+  index.php
+  logout.php
+  reporte_pdf.php
+  reportes.php
+  sql/fontana_db.sql
+  sql/migracion_api_dni_ruc.sql
+  sql/migracion_pago_qr.sql
+
+Modificados: 11
+  .gitignore
+  caja.php
+  conexion.php
+  includes/header.php
+  includes/helpers.php
+  inventario.php
+  login.php
+  productos.php
+  reposicion.php
+  usuarios.php
+  ventas.php
+
+Eliminados: 0
+
+Añadidos: 56
+  .htaccess
+  .vscode/.htaccess
+  README_PAGOS.md
+  api_pago.php
+  api_pago_demo.php
+  comprobante_prueba.php
+  config/.htaccess
+  config/pagos.academico-completo.example.php
+  config/pagos.example.php
+  configurar_pagos.php
+  css/pagos.css
+  docs/.htaccess
+  docs/CAMBIOS.md
+  docs/CAMBIOS_ACADEMICOS.md
+  docs/FUENTES_PAGOS.md
+  docs/LEGADO_IZIPAY.md
+  docs/PRUEBAS_Y_DESPLIEGUE.md
+  docs/RESULTADOS_ACADEMICOS.md
+  docs/RESULTADOS_PRUEBAS.txt
+  docs/VERIFICACION_ACADEMICA.txt
+  docs/VERIFICACION_ARCHIVOS.txt
+  docs/evidencias/diagnostico_entorno_desarrollo.txt
+  docs/evidencias/interfaz_academica.json
+  docs/evidencias/interfaz_original.json
+  docs/evidencias/unitarias_academicas.txt
+  docs/evidencias/unitarias_originales.txt
+  includes/.htaccess
+  includes/demo_pagos.php
+  includes/izipay.php
+  includes/mercadopago.php
+  includes/pago_demo_vista.php
+  includes/pago_mp_vista.php
+  includes/pago_vista.php
+  includes/pagos.php
+  js/demo-movil.js
+  js/pagos-academicos.js
+  js/pagos.js
+  js/vendor/LICENSE-QR.txt
+  js/vendor/fontana-qr.js
+  js/ventas-pagos.js
+  pago.php
+  pago_demo.php
+  pagos.php
+  sql/.htaccess
+  sql/migracion_pagos_academicos.sql
+  sql/migracion_pagos_api.sql
+  tests/.htaccess
+  tests/academico_unit.php
+  tests/diagnostico.php
+  tests/generar_academico.php
+  tests/generar_vistas.php
+  tests/interfaz.py
+  tests/interfaz_academica.py
+  tests/unit.php
+  webhook_izipay.php
+  webhook_mercadopago.php
+
+Entrega previa de pagos
+=======================
+
+Sin modificaciones: 43
+  .gitignore
+  .htaccess
+  .vscode/.htaccess
+  .vscode/launch.json
+  .vscode/tasks.json
+  CORRECCIONES_REQUISITOS.md
+  README_API_DNI_RUC.md
+  api_consulta_documento.php
+  conexion.php
+  config/.htaccess
+  config/api.example.php
+  config/api.php
+  css/estilos.css
+  docs/.htaccess
+  fontana_db.sql
+  img/LEER_qr_pago.txt
+  img/logo_fontana1.png
+  img/qr_yape.png
+  includes/.htaccess
+  includes/api_documentos.php
+  includes/footer.php
+  includes/header.php
+  includes/helpers.php
+  index.php
+  inventario.php
+  js/ventas-pagos.js
+  login.php
+  logout.php
+  pago.php
+  productos.php
+  reporte_pdf.php
+  reportes.php
+  reposicion.php
+  sql/.htaccess
+  sql/fontana_db.sql
+  sql/migracion_api_dni_ruc.sql
+  sql/migracion_pago_qr.sql
+  sql/migracion_pagos_api.sql
+  tests/.htaccess
+  tests/generar_vistas.php
+  tests/interfaz.py
+  usuarios.php
+  webhook_izipay.php
+
+Modificados: 18
+  README_PAGOS.md
+  api_pago.php
+  caja.php
+  config/pagos.example.php
+  configurar_pagos.php
+  css/pagos.css
+  docs/CAMBIOS.md
+  docs/PRUEBAS_Y_DESPLIEGUE.md
+  docs/RESULTADOS_PRUEBAS.txt
+  docs/VERIFICACION_ARCHIVOS.txt
+  includes/izipay.php
+  includes/pago_vista.php
+  includes/pagos.php
+  js/pagos.js
+  pagos.php
+  tests/diagnostico.php
+  tests/unit.php
+  ventas.php
+
+Eliminados: 0
+
+Añadidos: 27
+  api_pago_demo.php
+  comprobante_prueba.php
+  config/pagos.academico-completo.example.php
+  docs/CAMBIOS_ACADEMICOS.md
+  docs/FUENTES_PAGOS.md
+  docs/LEGADO_IZIPAY.md
+  docs/RESULTADOS_ACADEMICOS.md
+  docs/VERIFICACION_ACADEMICA.txt
+  docs/evidencias/diagnostico_entorno_desarrollo.txt
+  docs/evidencias/interfaz_academica.json
+  docs/evidencias/interfaz_original.json
+  docs/evidencias/unitarias_academicas.txt
+  docs/evidencias/unitarias_originales.txt
+  includes/demo_pagos.php
+  includes/mercadopago.php
+  includes/pago_demo_vista.php
+  includes/pago_mp_vista.php
+  js/demo-movil.js
+  js/pagos-academicos.js
+  js/vendor/LICENSE-QR.txt
+  js/vendor/fontana-qr.js
+  pago_demo.php
+  sql/migracion_pagos_academicos.sql
+  tests/academico_unit.php
+  tests/generar_academico.php
+  tests/interfaz_academica.py
+  webhook_mercadopago.php

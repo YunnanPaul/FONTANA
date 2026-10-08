@@ -1,0 +1,14 @@
+OK dashboard
+OK productos_alta
+OK productos_edicion
+OK inventario
+OK reposicion
+OK usuarios
+OK reportes
+OK caja_original_sin_apertura
+OK caja_original_abierta
+OK caja_ampliada_abierta
+OK pagos_sin_instalar
+OK pagos_instalado_vacio
+OK configuracion
+RESULTADO: 13 plantillas renderizadas sin avisos PHP con DATOS FIXTURE, sin SQL.

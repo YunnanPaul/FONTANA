@@ -1,0 +1,1 @@
+SKIP: mysqli no está instalado; NO se ejecutó MySQL/MariaDB.

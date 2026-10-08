@@ -1,0 +1,33 @@
+Vistas de prueba generadas en <salida_de_pruebas>/interfaz/vistas
+OK Base original sin pagos conserva formulario
+OK Sin selector de modalidades en Ventas
+OK El QR no ocupa la selección de productos
+OK No se exige confirmar dinero antes de mostrar el cobro
+OK Un solo botón para continuar al cobro
+OK Suma de productos exacta S/ 17.50
+OK Yape no obliga a introducir efectivo
+OK Pantalla de venta sin API, académico ni laboratorio
+OK Continuar solo prepara el cobro y bloquea doble clic
+OK Volver con historial restaura el botón
+OK Se recupera el carrito tras validación fallida
+OK Se conservan documento y cliente del borrador
+OK QR Yape visible automáticamente al abrir el cobro
+OK Imagen original del QR cargada correctamente
+OK La ventana usa el importe preparado por el servidor
+OK No existe otro paso Mostrar QR
+OK Referencia compatible con columna original de 50 caracteres
+OK Confirmación explícita remite referencia y clave
+OK Confirmación no remite productos ni importe manipulables
+OK Doble envío bloqueado en la ventana de cobro
+OK Importe exacto en la ventana de efectivo
+OK Vuelto visible S/ 2.50 antes de registrar
+OK Efectivo insuficiente bloqueado antes del envío
+OK Sin QR de Plin propio no se muestra el QR de otra billetera
+OK Tarjeta manual muestra instrucciones de terminal, no un QR ajeno
+OK Un cobro vencido no muestra QR ni botón para confirmar
+OK Después de confirmar se muestra resultado, no otro QR para cobrar dos veces
+OK Ventana de cobro adaptable a 360 px
+OK Ventana de cobro adaptable a 390 px
+OK Carrito móvil sin desbordamiento
+OK Sin excepciones JavaScript en los recorridos probados
+RESULTADO 31 comprobaciones de interfaz aprobadas

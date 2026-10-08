@@ -1,0 +1,25 @@
+QR IZIPAY PARA YAPE Y PLIN
+===========================
+
+El sistema usa un solo archivo para ambos métodos de pago:
+
+    img/qr_izipay.png
+
+Al seleccionar Yape o Plin y pulsar "Proceder con la venta", el QR aparece
+automáticamente junto con el total calculado por Fontana.
+
+Para cambiar la cuenta receptora:
+1. Obtén el nuevo QR Básico de Izipay.
+2. Recorta únicamente el código QR en formato cuadrado y PNG.
+3. Reemplaza img/qr_izipay.png manteniendo exactamente el mismo nombre.
+4. Recarga Ventas con Ctrl + F5 y prepara una venta nueva.
+
+El paquete también conserva qr_yape.png y qr_plin.png como copias de
+compatibilidad, pero la ventana principal lee qr_izipay.png.
+
+IMPORTANTE:
+- Este QR Básico es estático. Fontana muestra automáticamente el total, pero
+  Yape o Plin pueden pedir que el cliente escriba el importe.
+- El importe dentro de la billetera y la confirmación automática requieren
+  una orden dinámica de Izipay y las credenciales de Punto Web.
+- Verifica siempre el destinatario y el abono antes de confirmar la venta.

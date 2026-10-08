@@ -1,0 +1,6 @@
+js/demo-movil.js: OK
+js/pagos-academicos.js: OK
+js/pagos.js: OK
+js/vendor/fontana-qr.js: OK
+js/venta-cobro.js: OK
+js/ventas-pagos.js: OK

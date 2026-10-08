@@ -1,0 +1,33 @@
+OK Registro normal inserta venta aunque no existan tablas de pagos
+OK Importe DECIMAL se envía como texto exacto
+OK Se descuenta el stock de ambas líneas
+OK Detalle e inventario acompañan a la venta
+OK Vuelto exacto: S/ 2.50
+OK El motivo se conserva como texto
+OK Tipos de parámetros de inventario correctos
+OK Venta confirmada una vez
+OK Reenvío dentro de la misma sesión recupera la venta sin duplicarla
+OK El flujo habitual no crea pagos de prueba ni consulta una API
+OK Registro habitual Yape conserva referencia sin simulación automática
+OK Registro habitual Plin conserva referencia sin simulación automática
+OK Registro habitual Tarjeta conserva referencia sin simulación automática
+OK Rechazo controlado: stock
+OK Sin escritura parcial: stock
+OK Rechazo controlado: dinero
+OK Sin escritura parcial: dinero
+OK Rechazo controlado: caja
+OK Sin escritura parcial: caja
+OK Rechazo controlado: producto
+OK Sin escritura parcial: producto
+OK Rechazo controlado: confirmacion
+OK Sin escritura parcial: confirmacion
+OK Rechazo controlado: clave
+OK Sin escritura parcial: clave
+OK Rechazo controlado: detalle
+OK Sin escritura parcial: detalle
+OK Rechazo controlado: movimiento
+OK Sin escritura parcial: movimiento
+OK Productos repetidos se agrupan y ordenan
+OK Campos manipulados como arrays se rechazan antes de trim
+OK Una ampliación vacía o parcial no se declara lista
+RESULTADO: 32 comprobaciones aprobadas con DOBLE EN MEMORIA, sin MySQL ni pasarela.

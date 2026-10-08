@@ -1,0 +1,372 @@
+{
+  "version": "cobro-20260906-1",
+  "base": "fontana_corregido_revision.zip",
+  "original": "fontana_mejorado(4).zip",
+  "rutas_originales_conservadas": 32,
+  "archivos_base_conservados": 112,
+  "archivos_eliminados": [],
+  "comprobaciones_logica": 232,
+  "comprobaciones_interfaz": 64,
+  "plantillas_fixture": 13,
+  "php_syntax": 54,
+  "javascript_syntax": 6,
+  "mysql": "PENDIENTE: mysqli/servidor no disponibles",
+  "modificados": [
+    {
+      "archivo": "LEEME_PRIMERO.md",
+      "sha256_antes": "d0da333ab8498864cec714b05f7f23069efca43c921c883c528f731901289bd5",
+      "sha256_despues": "98e0fe1f5cadb4f29a51f6772a7559ab9a047be06489057fb00fda614a1bce2f"
+    },
+    {
+      "archivo": "README_PAGOS.md",
+      "sha256_antes": "d0da333ab8498864cec714b05f7f23069efca43c921c883c528f731901289bd5",
+      "sha256_despues": "98e0fe1f5cadb4f29a51f6772a7559ab9a047be06489057fb00fda614a1bce2f"
+    },
+    {
+      "archivo": "api_pago_demo.php",
+      "sha256_antes": "e6389416c58bd7fe349bb1fe290b504449699a75116473652ddfbf0af50be955",
+      "sha256_despues": "e89b88979b9b56753d28538a848d985ed4a64b69177217ff6873510c9975e139"
+    },
+    {
+      "archivo": "comprobante_prueba.php",
+      "sha256_antes": "b7b36af9a67ce52db3cb0b4195fcb71d922bfe2ca5dcaf29eaa55bd1d3376de0",
+      "sha256_despues": "518793e5f7bdc6885681fb126917f9e7fe9b65b6e7115cc4d1a0c47a27c2f307"
+    },
+    {
+      "archivo": "config/pagos.academico-completo.example.php",
+      "sha256_antes": "4acad7fddfd34872408665f411b0fd76354f83e8c27273a894cfc070c79a7381",
+      "sha256_despues": "7b715c958adffdde9257b492a8da1370a9a56b53bb39528363a1d5d2a7a12a66"
+    },
+    {
+      "archivo": "config/pagos.example.php",
+      "sha256_antes": "154a80b17d615441cbd176ffcd71e8329252f8d7018e8614e4533165e2be0dda",
+      "sha256_despues": "59d8a432d61c086d55d357c42bebfe8e730a98e9e990031fddf5ad3a27625a31"
+    },
+    {
+      "archivo": "configurar_pagos.php",
+      "sha256_antes": "96565c2cac4338207d3c9d6e1ad79589c4d748f86df7fa5a53967a4ba8f29ae5",
+      "sha256_despues": "7bd6293f843f57239fc09f22965e6739fbaa802f60ffebfc74449142d3b7c38b"
+    },
+    {
+      "archivo": "css/pagos.css",
+      "sha256_antes": "82e0f2746edcb2d1a272b4abbb5caf59e0646694eb2a34c1904a88d065b32f5d",
+      "sha256_despues": "cbb43d1eec9e305b7299cfc970a0cbef0bc97ed2e82e24643a9b234b1c0ee967"
+    },
+    {
+      "archivo": "diagnostico_sistema.php",
+      "sha256_antes": "61739fde9180adf8d2398c15ded3712de69c2723fed7e87641699398cb63a58c",
+      "sha256_despues": "c40bfda3e77cd69b3562236a4e65fc65f2b2634a23290be03db48c6e2ddf7906"
+    },
+    {
+      "archivo": "includes/demo_pagos.php",
+      "sha256_antes": "0ae84d6436ddb8218570c95b4154026d908bec086fffb0c5201353e766d15ef1",
+      "sha256_despues": "3a5697c5a52efa1606edc643ad2e3fef5ca52baba38fcf21599b497a8475a33b"
+    },
+    {
+      "archivo": "includes/header.php",
+      "sha256_antes": "b43022b5e6e41c06bc4114fa9a7145871908040f51f905d17c288b015161e3b7",
+      "sha256_despues": "818f52d5fa8c73e56530bd91da0ce38024240401a5bb2d822a100ab14f61294c"
+    },
+    {
+      "archivo": "includes/pago_demo_vista.php",
+      "sha256_antes": "8fe6cc573f6aff63e5b8266286bf7078dbf619478c1a7a98c1bd05aa8536280f",
+      "sha256_despues": "31a96f3c0289b337d6888350cc5dcd2bf4e064f97cb27243ecaf7ea1ecb31925"
+    },
+    {
+      "archivo": "includes/pago_mp_vista.php",
+      "sha256_antes": "83427bb8ea1a70e830ce361d2da79b5bb07a784eda16e84128bc3c1a559e9fc5",
+      "sha256_despues": "f9b7a8aa491bd2fdee22bd8d46e869bac4fc427a09381467a5b5506be6bd2419"
+    },
+    {
+      "archivo": "includes/pago_vista.php",
+      "sha256_antes": "9113587337f76bd8045ab1715c434afa9d7025cb155be1754e4825a29d2ad661",
+      "sha256_despues": "5fb468d2b26b91d1cf37f077a46faf6262f382a8f0cdd9776beffddcd1a1cdca"
+    },
+    {
+      "archivo": "includes/pagos.php",
+      "sha256_antes": "7dc52c61f1979232468fce726cdb0f62c21f0e52d7e29f5c1079f5df30ba4de0",
+      "sha256_despues": "6f5f2052e5342f878ee7e00a9d4c23a5a1571852d8fc17c0b9f58bcef5e77238"
+    },
+    {
+      "archivo": "includes/venta_resultado.php",
+      "sha256_antes": "c64d332f25180b0f04fd3a39abc2a1e74d4824e77b43f40d901549676571b386",
+      "sha256_despues": "ca003cc6eeff5a284628ca36791861925bff2c05c1d802928c66641963dd798a"
+    },
+    {
+      "archivo": "includes/ventas_core.php",
+      "sha256_antes": "5fec9355cc9c3e9c8e19fdcb2e3f471feffe319ca1df17aad322272677defc34",
+      "sha256_despues": "7051a4de10cb0c56d366ff67d6968825d6c6b05e79f4ba8caff19f8103539ba6"
+    },
+    {
+      "archivo": "js/demo-movil.js",
+      "sha256_antes": "6af2d67a18125a9c072acfecd3a06901eda2ffffddc0fb9129d57dccfa2d6c91",
+      "sha256_despues": "dee002e2276a50c6f1d6a01b4460ee23586400be332db73c41f05d078388e269"
+    },
+    {
+      "archivo": "js/pagos-academicos.js",
+      "sha256_antes": "017e77a1b8ba91fe37b5b6adfdac25736b281a80fbe2450049df668bffb02956",
+      "sha256_despues": "97eef92665ed8687cabd74b105da2e92ccc7e0d5172ab4720e2545fb7d98414f"
+    },
+    {
+      "archivo": "js/pagos.js",
+      "sha256_antes": "b1c7150881e890fa9951fcae5c91b8d2e3f6089ccdad79ef54cba64a2d0549d1",
+      "sha256_despues": "5585abae1698a144a37659ea0949b5a9eb0ba9f1d93ee2ecbbfd3eb5b36c9c77"
+    },
+    {
+      "archivo": "js/ventas-pagos.js",
+      "sha256_antes": "bc4380bbf7f892d3432faea5a9c77fc4a2a659bd3edd7dfadd611fd8be1711da",
+      "sha256_despues": "cc915c16b77d73262fa47f83b19163735df7cbef1360109e0e8f6b7c85e0c82d"
+    },
+    {
+      "archivo": "pago_demo.php",
+      "sha256_antes": "8044b361705b2305f268dae5f79bf217f6040b0038c496f4461461570a077380",
+      "sha256_despues": "503e62dd724d2870ccceac789d289f43af27dc71d50c1489be8d531a53ee2019"
+    },
+    {
+      "archivo": "pagos.php",
+      "sha256_antes": "8761e1db8475845192f8dab9eda4f25e1bf6cc03debbc83d6535372fc3206c77",
+      "sha256_despues": "73e0b15644f3c5f50f9e1b48079601946f02b76b7bdcffd4eabc0584ba3213c9"
+    },
+    {
+      "archivo": "tests/academico_unit.php",
+      "sha256_antes": "81e00af457a1a39bdec5f0c5177bef6926ed48ed479e4d0f1df6955df693dfe8",
+      "sha256_despues": "1ca51988fc054ff3f239709f6e514561c58ffbcbcac284d7e6ef94312cb41e8b"
+    },
+    {
+      "archivo": "tests/generar_vistas.php",
+      "sha256_antes": "455ade91e2112d69e6e1a3bf6e78a23816c841c8dc1fd034644dce3483184d4a",
+      "sha256_despues": "aa7046f38130ab52a2736b46fc95bcb8e394c7de9f3b3b8958bd0d5be4c28efd"
+    },
+    {
+      "archivo": "tests/interfaz.py",
+      "sha256_antes": "f07706c629f9fb5eddc3777d3950f3467e84186590ccf175dbadfa33cab451b4",
+      "sha256_despues": "23a08c2335b4124f62e90fcce51bdb4be0930c3b3da1621da965587fe76c819a"
+    },
+    {
+      "archivo": "tests/interfaz_academica.py",
+      "sha256_antes": "5627eaa974b438734e40718c2a0625c912ccc354d3251b16a4897e43673454d3",
+      "sha256_despues": "956503987456d09c6a6c7b0f919b98c328512a83332a07b3fd34a52adfb5b22d"
+    },
+    {
+      "archivo": "tests/interfaz_regresion.py",
+      "sha256_antes": "700b41e002f42e12ef70f35a218c2f826e113696a37167a5e2d195a366dee3f8",
+      "sha256_despues": "62c50af89a93bc249614c7fef4b132f979f3c5ba7f889a1c0b8e9345d7f58f17"
+    },
+    {
+      "archivo": "ventas.php",
+      "sha256_antes": "416594e71230430e9261cabc76fafcdba1bf7a1c8a13be0dbbb6e61a3bebc0aa",
+      "sha256_despues": "f9a64682550a03df7809537d88bf090718d3a087398f8622078acaeba09998b5"
+    }
+  ],
+  "agregados": [
+    {
+      "archivo": "INFORME_INTERFAZ.md",
+      "sha256": "54c7e7245dec66eba7f975f0c2b0df2f90ef3e06e593422cd36d36a16f554958"
+    },
+    {
+      "archivo": "LEEME_INTERFAZ.md",
+      "sha256": "fc2d7b3dc52f4269f1aaded8aafee4515bb61d1e02c84053ab072935a8b8c52e"
+    },
+    {
+      "archivo": "docs/verificacion_interfaz/academico_unit.txt",
+      "sha256": "41291d31230456229860e6aa773bdb9ff11bf17f07c1bee31bc5a03623d6e33f"
+    },
+    {
+      "archivo": "docs/verificacion_interfaz/cobro_unit.txt",
+      "sha256": "e6852e7ce8c17afa2ea89a3127c67821bec7cb5ab0a577d7adfc835b75506ed5"
+    },
+    {
+      "archivo": "docs/verificacion_interfaz/interfaz.json",
+      "sha256": "624b32c133b5149cccb73910c5ad1eae0fc89c630ab95ea5da2a31a8d54f6922"
+    },
+    {
+      "archivo": "docs/verificacion_interfaz/interfaz.txt",
+      "sha256": "2763b7b27966d2c58f25355e59831f0e970100b69c6c56e7d7f6e98281968aab"
+    },
+    {
+      "archivo": "docs/verificacion_interfaz/interfaz_integrada.json",
+      "sha256": "785b70c5d6f5bfdf9918a2875228c176a958a6ef68eb0f80e3bc954385cb3db8"
+    },
+    {
+      "archivo": "docs/verificacion_interfaz/interfaz_integrada.txt",
+      "sha256": "ce5f2e28b88f7b3c960aff8b7686518dd51a5bc77ac339b71561c0b7bfcc99df"
+    },
+    {
+      "archivo": "docs/verificacion_interfaz/interfaz_previa.json",
+      "sha256": "c6f04d441c4ad512f613bbf110467db5f9b4afa0520ecd58ce2479f1b940401b"
+    },
+    {
+      "archivo": "docs/verificacion_interfaz/interfaz_previa.txt",
+      "sha256": "dd30df0fa11bc8f3921f184bb993e8e13b8638f5e4fa4349d426f0a14e4b09a3"
+    },
+    {
+      "archivo": "docs/verificacion_interfaz/lint_js.txt",
+      "sha256": "dee6dcd8ca0d4b609ada2c4694d3fbebc687c7f1e95b203aed26fa4fc1cc141f"
+    },
+    {
+      "archivo": "docs/verificacion_interfaz/lint_php.txt",
+      "sha256": "0188432d19b6c7f7ee98d25533f0204b858894dd00f4f74eacab094dc338f4c7"
+    },
+    {
+      "archivo": "docs/verificacion_interfaz/modulos.txt",
+      "sha256": "265c4dd0b47814de864bd8a68aaea55e30e8a85a97f97faa7cdc1818a6412edf"
+    },
+    {
+      "archivo": "docs/verificacion_interfaz/mysql.txt",
+      "sha256": "1cb26fa12dbfe646311ed817ac115579b84037aa1ca90b8a49b2bea8c95a485b"
+    },
+    {
+      "archivo": "docs/verificacion_interfaz/regresion.txt",
+      "sha256": "7f92fa7c9c5b4e93c5cc0bd832ef116e95078bf19bfceb4878ebe4100ed84957"
+    },
+    {
+      "archivo": "docs/verificacion_interfaz/unit.txt",
+      "sha256": "4148b4916870ec509d13b54f6dc62ffbd7a32f7d97fe2c257cc8496e263fcdab"
+    },
+    {
+      "archivo": "includes/venta_cobro.php",
+      "sha256": "dc1d995379081d76215fc5a02763c07e13e5bdf51f05b196dd20625cf3a4ed2f"
+    },
+    {
+      "archivo": "includes/venta_cobro_core.php",
+      "sha256": "def54b546c8722af19c9ff23a4f8b5307dfbbee08f5cf74bccaf1737caae8141"
+    },
+    {
+      "archivo": "js/venta-cobro.js",
+      "sha256": "e522dd5f3d5867f1f440a916cf00ef3cdf4cfabea4eaeb7066b310378581023a"
+    },
+    {
+      "archivo": "tests/cobro_unit.php",
+      "sha256": "7a87ce7ce49d4048090406b648f7af849573aa6aa248707244546b7501e5f678"
+    },
+    {
+      "archivo": "tests/soporte_mysqli_doble.php",
+      "sha256": "b4fb386af73a2a332e32dc5ca43b66333114e8577777b1b4da1cceba52dc962f"
+    }
+  ],
+  "sql_identicos": [
+    {
+      "archivo": "fontana_db.sql",
+      "sha256": "6758f4ef04b1d5dd04310122324c44829b322d3862332a5a92a5879198b0c7aa"
+    },
+    {
+      "archivo": "sql/fontana_db.sql",
+      "sha256": "6758f4ef04b1d5dd04310122324c44829b322d3862332a5a92a5879198b0c7aa"
+    },
+    {
+      "archivo": "sql/migracion_api_dni_ruc.sql",
+      "sha256": "14ec50ed41d04b135cc6b0c9dc1ecfeae25b31c0354eb2deb9351ef53d473a8c"
+    },
+    {
+      "archivo": "sql/migracion_pago_qr.sql",
+      "sha256": "c62024bdb6396cc8d6062b55c20b695c57424c1c22fa45d2532ae3b4371561ef"
+    },
+    {
+      "archivo": "sql/migracion_pagos_academicos.sql",
+      "sha256": "76223dea50e14bb7146ad80f1a5ee226983ad00ad901b51f8ff6b2707d8d9c60"
+    },
+    {
+      "archivo": "sql/migracion_pagos_api.sql",
+      "sha256": "c6d5e9f21c44634afc6c80318f1a1e702a32f1d22795bcaa222e6ccf9ed6a538"
+    },
+    {
+      "archivo": "tests/fixtures/base_original.sql",
+      "sha256": "b13e0fbdd991ea144e90e9a6825a961443723affc7ede157a00705b6afbd8e92"
+    }
+  ],
+  "protegidos_identicos": [
+    {
+      "archivo": "conexion.php",
+      "sha256": "9e10eb49b6c55a74973455c28ae7e0b98749fe0961423c1dfaa09c9fa1206574"
+    },
+    {
+      "archivo": "api_consulta_documento.php",
+      "sha256": "69818d6b82f61abd65a40c2f3787ada9dc092a1bb7abc4d6c78f6d9b66579909"
+    },
+    {
+      "archivo": "includes/api_documentos.php",
+      "sha256": "0511a5f369cf5499e7e4b10eea029ea1c211f392cbe56c6d132d7414bc4c141e"
+    },
+    {
+      "archivo": "config/api.php",
+      "sha256": "e00104c31038cf8bf9b12874986b9cf103d1288a85d2d1e5c6fc8c459187209e"
+    },
+    {
+      "archivo": "css/estilos.css",
+      "sha256": "1dfe9c49e2143c2244749ef2d06a8506e64f882ef689f06657fd2d6b575f8876"
+    },
+    {
+      "archivo": "includes/helpers.php",
+      "sha256": "1e3e0c7a7b448ed536e44a30322b5354ccdfe6c99c2a7dcf7469f9173505faca"
+    },
+    {
+      "archivo": "includes/instalacion_pagos.php",
+      "sha256": "4e07b0c47590c53020318d3b7b76f5cbf0dfdad9b8f30e652a487e4ba6bad944"
+    },
+    {
+      "archivo": "img/qr_yape.png",
+      "sha256": "5b04d32e26caeeed3e039a3cf692430a721e2635463ecf10b46e344d0e9beb92"
+    },
+    {
+      "archivo": "img/logo_fontana1.png",
+      "sha256": "fe0b70bf21dccfd720610bca548852645ac86b818e5183309f77acc8fadce6a7"
+    },
+    {
+      "archivo": "caja.php",
+      "sha256": "148554368ae4ee62c912904cdb48acf7eaf08815e9a79ade3514e813d179055e"
+    },
+    {
+      "archivo": "productos.php",
+      "sha256": "fae25a8af0866aede08f57ac9d33016e5578b83bf5d6a23748843559d2f78b3d"
+    },
+    {
+      "archivo": "inventario.php",
+      "sha256": "efd8441b67cf3e8b9fadb0fb6b3a26a1c51c26ce183cdd8590c81641462743e4"
+    },
+    {
+      "archivo": "reposicion.php",
+      "sha256": "3bb525e7713c33a615c57bf53e89b758cdb52d98b33484202abcf52544b1f2dc"
+    },
+    {
+      "archivo": "index.php",
+      "sha256": "64266acfe02ce51ad641986dcd4daa9154cc76affd84bc9813ac6eb7a1d8ee07"
+    },
+    {
+      "archivo": "reportes.php",
+      "sha256": "4458c92f06c3c9d7addabe9c44158d7b0e77dd802b790c6fa236b06934f0dd02"
+    },
+    {
+      "archivo": "reporte_pdf.php",
+      "sha256": "fcbd4e39727c2eee4ab4fa88ab2b313f393e53e140cf5937e4d42e09692de4d7"
+    },
+    {
+      "archivo": "login.php",
+      "sha256": "0991012540a94215266c616f6f2ad10b12bf81f177081c207b4044bbbc37a3cb"
+    },
+    {
+      "archivo": "logout.php",
+      "sha256": "8469e980d0b3cb1bb7a8ec5a7be814906bb6d01021f4bf331d722bbf108f2cae"
+    },
+    {
+      "archivo": "usuarios.php",
+      "sha256": "776850b5a04550e57999de0fd5c2d4664bf8a4dfe66da1ae0aa7ed486fb12a4b"
+    },
+    {
+      "archivo": "includes/mercadopago.php",
+      "sha256": "23c8771525abce2eea7799fcb864527f84291f89b05ef26caad5489e51cd46fe"
+    },
+    {
+      "archivo": "includes/izipay.php",
+      "sha256": "8a1c0db0674c2721d3b1b6e048d7af399df8c40be1ebc035ca9f23f1533fa013"
+    },
+    {
+      "archivo": "webhook_mercadopago.php",
+      "sha256": "da75eadfa28702bede047dad676b8d0838a4519d8bd5fbba7944196928f51c82"
+    },
+    {
+      "archivo": "webhook_izipay.php",
+      "sha256": "598c813b65a040536a0f25970beec047a70871f50ac1534f58ea6ca215d9510e"
+    }
+  ],
+  "nota": "El manifiesto no se incluye en su propio cálculo de hashes. Pruebas de datos y proveedor simuladas; no validan MySQL real ni una cuenta externa."
+}

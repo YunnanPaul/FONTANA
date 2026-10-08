@@ -1,0 +1,13 @@
+Vistas de prueba generadas en <salida_de_pruebas>/interfaz_previa/vistas
+OK  Total y subtotales: 2×5 + 3×2.50 = 17.50
+OK  Quitar líneas y limpiar última línea actualiza total
+OK  Vuelto calculado antes de registrar venta
+OK  Venta manual aparece después de respuesta simulada; no se envía total del navegador
+OK  Checkout simulado recibe QR/PEN/17.50 sin marcar pago al abrirse
+OK  Callback se remite a backend; sandbox se muestra separado de ventas
+OK  Code 00 sin firma no confirma el pago
+OK  Tarjetas usan checkout CARD y no campos locales de tarjeta/CVV
+MOBILE_WIDTH {'width': 390, 'scroll': 390}
+OK  Vista móvil a 390 px sin desbordamiento horizontal
+OK  Sin errores JavaScript en los recorridos probados
+RESULTADO 10 pruebas de interfaz aprobadas
